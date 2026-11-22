@@ -1,0 +1,133 @@
+INFO  Using log config file: jar:file:/C:/Users/spala/Desktop/Claude/Autotrader/shop_forcer/tools/ghidra_11.2.1_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\spala\AppData\Roaming\ghidra\ghidra_11.2.1_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\spala\AppData\Roaming\ghidra\ghidra_11.2.1_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (602 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (SSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (ApplicationTrustManagerFactory)  
+INFO  Headless startup complete (1812 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 57 extension points (18 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Jython\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-agent-frida\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-agent-dbgmodel-traceloader\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\ghidra_proj\SpelunkyProj (HeadlessAnalyzer)  
+INFO  Opening project: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\ghidra_proj\SpelunkyProj (HeadlessProject)  
+INFO  REPORT: Processing project file: /Spelunky.exe (HeadlessAnalyzer)  
+INFO  SCRIPT: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\find_fn_callers.py (HeadlessAnalyzer)  
+CALLERS OF 0x4f2f54: 1
+  FUN_0040ab30 @ 0040ab30
+
+==================== FUN_0040ab30 @ 0040ab30 ====================
+
+undefined4 FUN_0040ab30(void)
+
+{
+  undefined4 uVar1;
+  undefined4 uVar2;
+  int *piVar3;
+  HMONITOR hMonitor;
+  BOOL BVar4;
+  tagMONITORINFO *lpmi;
+  tagMONITORINFO local_4c;
+  
+  if (DAT_0055a51c == (int *)0x0) {
+    piVar3 = (int *)Direct3DCreate9(0x20);
+    DAT_0055a51c = piVar3;
+    if (piVar3 == (int *)0x0) {
+      piVar3 = (int *)FUN_0040a770();
+    }
+    lpmi = &local_4c;
+    local_4c.cbSize = 0x48;
+    hMonitor = (HMONITOR)(**(code **)(*piVar3 + 0x3c))(piVar3,0);
+    BVar4 = GetMonitorInfoA(hMonitor,lpmi);
+    if (BVar4 == 0) {
+      FUN_0040a770();
+    }
+    DAT_0055a524 = local_4c.rcMonitor.right - local_4c.rcMonitor.left;
+    DAT_0055a528 = local_4c.rcMonitor.bottom - local_4c.rcMonitor.top;
+    FUN_0040aa50();
+    _memset(&DAT_00546158,0,0x38);
+    uVar2 = DAT_00540a90;
+    uVar1 = DAT_00540a8c;
+    FUN_0040a950('\x01');
+    if (DAT_0054619c == (int *)0x0) {
+      DAT_00540a8c = 0x500;
+      DAT_00540a90 = 0x2d0;
+      FUN_0040a950('\x01');
+      if (DAT_0054619c == (int *)0x0) {
+        DAT_00540a8c = 0x500;
+        DAT_00540a90 = 800;
+        FUN_0040a950('\x01');
+        if (DAT_0054619c == (int *)0x0) {
+          DAT_00540a8c = 0x500;
+          DAT_00540a90 = 0x400;
+          FUN_0040a950('\x01');
+          if ((DAT_0054619c == (int *)0x0) &&
+             (DAT_00540a8c = uVar1, DAT_00540a90 = uVar2, FUN_0040a950('\0'),
+             DAT_0054619c == (int *)0x0)) {
+            DAT_00540a8c = 0x500;
+            DAT_00540a90 = 0x2d0;
+            FUN_0040a950('\0');
+            if (DAT_0054619c == (int *)0x0) {
+              DAT_00540a8c = 0x500;
+              DAT_00540a90 = 800;
+              FUN_0040a950('\0');
+              if (DAT_0054619c == (int *)0x0) {
+                DAT_00540a8c = 0x500;
+                DAT_00540a90 = 0x400;
+                FUN_0040a950('\0');
+                if (DAT_0054619c == (int *)0x0) {
+                  FUN_0040a770();
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  (**(code **)(*DAT_0054619c + 0x5c))(DAT_0054619c,0x500,0x2d0,1,1,0x16,0,&DAT_0055a55c,0);
+  (**(code **)(*DAT_0055a55c + 0x48))(DAT_0055a55c,0,&DAT_0055a560);
+  (**(code **)(*DAT_0054619c + 0x5c))(DAT_0054619c,0x500,0x2d0,1,1,0x16,0,&DAT_0055a584,0);
+  (**(code **)(*DAT_0055a584 + 0x48))(DAT_0055a584,0,&DAT_0055a588);
+  (**(code **)(*DAT_0054619c + 0x5c))(DAT_0054619c,0x500,0x2d0,1,1,0x15,0,&DAT_0055a58c,0);
+  (**(code **)(*DAT_0055a58c + 0x48))(DAT_0055a58c,0,&DAT_0055a590);
+  (**(code **)(*DAT_0054619c + 0x5c))(DAT_0054619c,0x200,0x100,1,1,0x17,0,&DAT_0055a564,0);
+  (**(code **)(*DAT_0055a564 + 0x48))(DAT_0055a564,0,&DAT_0055a568);
+  (**(code **)(*DAT_0054619c + 0x5c))(DAT_0054619c,0x200,0x100,1,1,0x16,0,&DAT_0055a56c,0);
+  (**(code **)(*DAT_0055a56c + 0x48))(DAT_0055a56c,0,&DAT_0055a570);
+  (**(code **)(*DAT_0054619c + 0x5c))(DAT_0054619c,0x200,0x100,1,1,0x15,0,&DAT_0055a574,0);
+  (**(code **)(*DAT_0055a574 + 0x48))(DAT_0055a574,0,&DAT_0055a578);
+  (**(code **)(*DAT_0054619c + 0x5c))(DAT_0054619c,0x200,0x100,1,1,0x16,0,&DAT_0055a57c,0);
+  (**(code **)(*DAT_0055a57c + 0x48))(DAT_0055a57c,0,&DAT_0055a580);
+  (**(code **)(*DAT_0054619c + 0x98))(DAT_0054619c,0,&DAT_0055a594);
+  return 0;
+}
+
+
+INFO  REPORT: Save succeeded for processed file: /Spelunky.exe (HeadlessAnalyzer)  

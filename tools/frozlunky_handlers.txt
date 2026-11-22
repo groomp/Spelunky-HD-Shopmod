@@ -1,0 +1,173 @@
+INFO  Using log config file: jar:file:/C:/Users/spala/Desktop/Claude/Autotrader/shop_forcer/tools/ghidra_11.2.1_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\spala\AppData\Roaming\ghidra\ghidra_11.2.1_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\spala\AppData\Roaming\ghidra\ghidra_11.2.1_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (574 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (SSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (ApplicationTrustManagerFactory)  
+INFO  Headless startup complete (1693 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 57 extension points (18 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-agent-dbgmodel-traceloader\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Jython\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-agent-frida\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\ghidra_proj\SpelunkyProj (HeadlessAnalyzer)  
+INFO  Opening project: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\ghidra_proj\SpelunkyProj (HeadlessProject)  
+INFO  REPORT: Processing project file: /Frozlunky.exe (HeadlessAnalyzer)  
+INFO  SCRIPT: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\decompile_containing.py (HeadlessAnalyzer)  
+==================== FUN_005ed290 @ 005ed290 (contains 005ed31b) ====================
+
+void FUN_005ed290(undefined4 param_1)
+
+{
+  int *piVar1;
+  int *piVar2;
+  int iVar3;
+  int iVar4;
+  uint uVar5;
+  undefined local_3c [4];
+  int *local_38;
+  int local_34 [4];
+  undefined4 local_24;
+  uint local_20;
+  undefined8 local_1c;
+  uint local_14;
+  void *local_10;
+  undefined *puStack_c;
+  undefined4 local_8;
+  
+  local_8 = 0xffffffff;
+  puStack_c = &LAB_0061b6b1;
+  local_10 = ExceptionList;
+  local_14 = DAT_006afb78 ^ (uint)&stack0xfffffffc;
+  ExceptionList = &local_10;
+  iVar3 = __RTDynamicCast(param_1,0,&Fl_Widget::RTTI_Type_Descriptor,
+                          &Fl_Check_Button::RTTI_Type_Descriptor,0,local_14);
+  local_34[0] = 0;
+  local_24 = 0;
+  local_1c = 0;
+  local_20 = 0xf;
+  FUN_0045d980(&DAT_0068b9ac,3);
+  FUN_005f2af0(local_3c,local_34);
+  FUN_0046ada0();
+  local_8 = 0;
+  if (local_38 != (int *)0x0) {
+    LOCK();
+    iVar4 = local_38[1] + -1;
+    local_38[1] = iVar4;
+    UNLOCK();
+    if (iVar4 == 0) {
+      (**(code **)*local_38)();
+      LOCK();
+      iVar4 = local_38[2] + -1;
+      local_38[2] = iVar4;
+      UNLOCK();
+      if (iVar4 == 0) {
+        (**(code **)(*local_38 + 4))();
+      }
+    }
+  }
+  if (0xf < local_20) {
+    uVar5 = local_20 + 1;
+    iVar4 = local_34[0];
+    if (0xfff < uVar5) {
+      iVar4 = *(int *)(local_34[0] + -4);
+      uVar5 = local_20 + 0x24;
+      if (0x1f < (local_34[0] - iVar4) - 4U) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+    }
+    FUN_005c8121(iVar4,uVar5);
+  }
+  if (*(char *)(iVar3 + 0x58) == '\0') {
+    ((int *)local_1c)[10] = -1;
+  }
+  else {
+    ((int *)local_1c)[10] = 4;
+  }
+  if (*(char *)((int *)local_1c + 1) != '\0') {
+    (**(code **)(*(int *)local_1c + 4))();
+  }
+  piVar2 = local_1c._4_4_;
+  if (local_1c._4_4_ != (int *)0x0) {
+    LOCK();
+    iVar3 = local_1c._4_4_[1] + -1;
+    local_1c._4_4_[1] = iVar3;
+    UNLOCK();
+    if (iVar3 == 0) {
+      (**(code **)*local_1c._4_4_)();
+      LOCK();
+      piVar1 = piVar2 + 2;
+      iVar3 = *piVar1;
+      *piVar1 = *piVar1 + -1;
+      UNLOCK();
+      if (iVar3 == 1) {
+        (**(code **)(*piVar2 + 4))();
+      }
+    }
+  }
+  ExceptionList = local_10;
+  FUN_005c810e();
+  return;
+}
+
+
+
+==================== FUN_0046ada0 @ 0046ada0 (contains 0046adcb) ====================
+
+int * __fastcall FUN_0046ada0(int *param_1,undefined4 *param_2)
+
+{
+  int iVar1;
+  void *local_10;
+  undefined *puStack_c;
+  undefined4 uStack_8;
+  
+  uStack_8 = 0xffffffff;
+  puStack_c = &LAB_00613a60;
+  local_10 = ExceptionList;
+  ExceptionList = &local_10;
+  iVar1 = __RTDynamicCast(*param_2,0,&Patch::RTTI_Type_Descriptor,
+                          &ShopContentsPatch::RTTI_Type_Descriptor,0,
+                          DAT_006afb78 ^ (uint)&stack0xfffffffc);
+  if (iVar1 != 0) {
+    *param_1 = iVar1;
+    param_1[1] = param_2[1];
+    *param_2 = 0;
+    param_2[1] = 0;
+    ExceptionList = local_10;
+    return param_1;
+  }
+  *param_1 = 0;
+  param_1[1] = 0;
+  ExceptionList = local_10;
+  return param_1;
+}
+
+
+
+INFO  REPORT: Save succeeded for processed file: /Frozlunky.exe (HeadlessAnalyzer)  

@@ -1,0 +1,755 @@
+INFO  Using log config file: jar:file:/C:/Users/spala/Desktop/Claude/Autotrader/shop_forcer/tools/ghidra_11.2.1_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\spala\AppData\Roaming\ghidra\ghidra_11.2.1_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\spala\AppData\Roaming\ghidra\ghidra_11.2.1_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (573 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (SSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (ApplicationTrustManagerFactory)  
+INFO  Headless startup complete (1715 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 57 extension points (18 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-agent-dbgmodel-traceloader\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Jython\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-agent-frida\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\ghidra_proj\SpelunkyProj (HeadlessAnalyzer)  
+INFO  Opening project: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\ghidra_proj\SpelunkyProj (HeadlessProject)  
+INFO  REPORT: Processing project file: /Spelunky.exe (HeadlessAnalyzer)  
+INFO  SCRIPT: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\find_fn_callers.py (HeadlessAnalyzer)  
+CALLERS OF 00461f60: 1
+  FUN_0045c6a0 @ 0045c6a0
+
+==================== FUN_0045c6a0 @ 0045c6a0 ====================
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_0045c6a0(void)
+
+{
+  float fVar1;
+  undefined4 uVar2;
+  void *this;
+  char cVar3;
+  int iVar4;
+  int *piVar5;
+  undefined4 *puVar6;
+  void *pvVar7;
+  undefined4 uVar8;
+  int iVar9;
+  undefined4 extraout_ECX;
+  undefined4 extraout_ECX_00;
+  undefined4 *puVar10;
+  
+  this = DAT_0055446c;
+  FUN_004984a0();
+  FUN_00493b30();
+  FUN_00497520();
+  iVar4 = *(int *)((int)this + 0x34);
+  FUN_0040d110((byte *)"icetile.jpg",'\0',(undefined4 *)(iVar4 + 0x1200c));
+  FUN_0040d110((byte *)"shine.jpg",'\0',(undefined4 *)(iVar4 + 0x12010));
+  FUN_004effa0();
+  iVar4 = SteamUserStats();
+  if (iVar4 != 0) {
+    iVar4 = SteamUser();
+    if (iVar4 != 0) {
+      piVar5 = (int *)SteamUser();
+      cVar3 = (**(code **)(*piVar5 + 4))();
+      if (cVar3 != '\0') {
+        puVar6 = (undefined4 *)SteamUserStats();
+        (**(code **)*puVar6)();
+      }
+    }
+  }
+  FUN_004eee10(*(undefined4 *)((int)this + 0x34));
+  puVar6 = (undefined4 *)operator_new(0x366d8);
+  if (puVar6 == (undefined4 *)0x0) {
+    puVar6 = (undefined4 *)0x0;
+  }
+  else {
+    puVar10 = puVar6;
+    for (iVar4 = 0x500; iVar4 != 0; iVar4 = iVar4 + -1) {
+      *puVar10 = 0;
+      puVar10 = puVar10 + 1;
+    }
+    puVar10 = puVar6 + 0x1100;
+    for (iVar4 = 0x500; iVar4 != 0; iVar4 = iVar4 + -1) {
+      *puVar10 = 0;
+      puVar10 = puVar10 + 1;
+    }
+    puVar10 = puVar6 + 0x1600;
+    for (iVar4 = 0x1000; iVar4 != 0; iVar4 = iVar4 + -1) {
+      *puVar10 = 0;
+      puVar10 = puVar10 + 1;
+    }
+    puVar6[0x1e05] = 0;
+    puVar6[0x1e01] = 0;
+    puVar6[0x1e04] = 0;
+    puVar6[0x1e02] = 0;
+  }
+  *(undefined4 **)((int)this + 0x30) = puVar6;
+  puVar6 = (undefined4 *)operator_new(0x171b0);
+  if (puVar6 == (undefined4 *)0x0) {
+    puVar6 = (undefined4 *)0x0;
+  }
+  else {
+    puVar6 = FUN_004bdb50(extraout_ECX,puVar6);
+  }
+  *(undefined4 **)((int)this + 0x3c) = puVar6;
+  pvVar7 = operator_new(0x4a0);
+  if (pvVar7 == (void *)0x0) {
+    uVar8 = 0;
+  }
+  else {
+    uVar8 = FUN_004bb500();
+  }
+  *(undefined4 *)((int)this + 0x40) = uVar8;
+  pvVar7 = operator_new(0x12c04);
+  if (pvVar7 == (void *)0x0) {
+    uVar8 = 0;
+  }
+  else {
+    uVar8 = FUN_00407fa0();
+  }
+  *(undefined4 *)((int)this + 0x38) = uVar8;
+  puVar6 = (undefined4 *)operator_new(0x1004);
+  if (puVar6 == (undefined4 *)0x0) {
+    puVar6 = (undefined4 *)0x0;
+  }
+  else {
+    puVar10 = puVar6;
+    for (iVar4 = 0x400; iVar4 != 0; iVar4 = iVar4 + -1) {
+      *puVar10 = 0;
+      puVar10 = puVar10 + 1;
+    }
+    puVar6[0x400] = 0;
+  }
+  *(undefined4 **)((int)this + 0x48) = puVar6;
+  puVar6 = (undefined4 *)operator_new(0x809c8);
+  if (puVar6 == (undefined4 *)0x0) {
+    puVar6 = (undefined4 *)0x0;
+  }
+  else {
+    puVar6 = FUN_004eade0(extraout_ECX_00,puVar6);
+  }
+  *(undefined4 **)((int)this + 0x50) = puVar6;
+  *(void **)(*(int *)((int)this + 0x3c) + 0x1715c) = this;
+  *(undefined4 *)(*(int *)((int)this + 0x50) + 0x809c0) = *(undefined4 *)((int)this + 0x34);
+  FUN_004c1430();
+  FUN_0049c9e0(*(int *)((int)this + 0x4c));
+  FUN_004eaf70();
+  FUN_004eb420(*(int **)((int)this + 0x50));
+  *(undefined4 *)((int)this + 0xa0) = 0;
+  *(undefined4 *)((int)this + 0xa8) = 0;
+  *(undefined4 *)((int)this + 0xac) = 0;
+  FUN_00407fe0();
+  iVar4 = FUN_00470ab0(this,_DAT_005361b8,_DAT_00535b20,0x7d1,'\0');
+  FUN_00411350();
+  uVar8 = _DAT_00535d50;
+  *(undefined4 *)(iVar4 + 0x3c) = _DAT_00535d50;
+  *(undefined4 *)(iVar4 + 0x38) = uVar8;
+  *(int *)(*(int *)((int)this + 0x4c) + 0x280) = iVar4;
+  iVar4 = FUN_00470ab0(this,0.0,0.0,0x7d1,'\0');
+  FUN_00411350();
+  *(undefined4 *)(iVar4 + 0x3c) = _DAT_00535cf8;
+  *(undefined4 *)(iVar4 + 0x38) = _DAT_0053622c;
+  fVar1 = _DAT_00535b20;
+  *(int *)(*(int *)((int)this + 0x4c) + 0x28c) = iVar4;
+  iVar4 = FUN_00470ab0(this,_DAT_005361b8,fVar1,0x7d1,'\0');
+  iVar9 = 0;
+  piVar5 = *(int **)((int)this + 0x34);
+  do {
+    if (*piVar5 == 0x191) {
+      piVar5 = *(int **)((int)this + 0x34) + iVar9 * 0x48;
+      goto LAB_0045c94c;
+    }
+    iVar9 = iVar9 + 1;
+    piVar5 = piVar5 + 0x48;
+  } while (iVar9 < 0x100);
+  piVar5 = (int *)0x0;
+LAB_0045c94c:
+  *(int **)(iVar4 + 0xb4) = piVar5;
+  FUN_00411350();
+  uVar8 = _DAT_00535d50;
+  *(undefined4 *)(iVar4 + 0x3c) = _DAT_00535d50;
+  *(undefined4 *)(iVar4 + 0x38) = uVar8;
+  *(int *)(*(int *)((int)this + 0x4c) + 0x122d2c) = iVar4;
+  iVar4 = FUN_00470ab0(this,1.0,1.0,2000,'\0');
+  FUN_00411350();
+  uVar8 = _DAT_00535bcc;
+  *(undefined4 *)(iVar4 + 0x3c) = _DAT_00535bcc;
+  *(undefined4 *)(iVar4 + 0x38) = uVar8;
+  *(int *)(*(int *)((int)this + 0x50) + 0x40) = iVar4;
+  pvVar7 = operator_new(0x168);
+  if (pvVar7 == (void *)0x0) {
+    iVar4 = 0;
+  }
+  else {
+    iVar4 = FUN_00416f70(0,0,_DAT_00535b60,_DAT_00535b60);
+  }
+  *(undefined4 *)(iVar4 + 0xc) = 0xd7;
+  uVar8 = _DAT_00535f44;
+  iVar9 = 0;
+  piVar5 = *(int **)((int)this + 0x34);
+  do {
+    if (*piVar5 == 0xd7) {
+      piVar5 = *(int **)((int)this + 0x34) + iVar9 * 0x48;
+      goto LAB_0045ca0f;
+    }
+    iVar9 = iVar9 + 1;
+    piVar5 = piVar5 + 0x48;
+  } while (iVar9 < 0x100);
+  piVar5 = (int *)0x0;
+LAB_0045ca0f:
+  *(int **)(iVar4 + 0xb4) = piVar5;
+  *(undefined4 *)(iVar4 + 0x40) = uVar8;
+  *(undefined4 *)(iVar4 + 0x134) = 0;
+  *(undefined4 *)(iVar4 + 0x6c) = 0;
+  *(undefined4 *)(iVar4 + 0x70) = 0;
+  *(undefined4 *)(iVar4 + 0x74) = 0x3f800000;
+  *(undefined4 *)(iVar4 + 0x78) = 0x3f800000;
+  *(int *)(*(int *)((int)this + 0x4c) + 0x2a4) = iVar4;
+  pvVar7 = operator_new(0x168);
+  if (pvVar7 == (void *)0x0) {
+    iVar4 = 0;
+  }
+  else {
+    iVar4 = FUN_00416f70(0,0,_DAT_00535c30,_DAT_00535b50);
+  }
+  *(undefined4 *)(iVar4 + 0xc) = 0x14;
+  uVar8 = _DAT_00535f44;
+  iVar9 = 0;
+  piVar5 = *(int **)((int)this + 0x34);
+  do {
+    if (*piVar5 == 0xd9) {
+      piVar5 = *(int **)((int)this + 0x34) + iVar9 * 0x48;
+      goto LAB_0045caad;
+    }
+    iVar9 = iVar9 + 1;
+    piVar5 = piVar5 + 0x48;
+  } while (iVar9 < 0x100);
+  piVar5 = (int *)0x0;
+LAB_0045caad:
+  *(int **)(iVar4 + 0xb4) = piVar5;
+  *(undefined4 *)(iVar4 + 0x40) = uVar8;
+  *(undefined4 *)(iVar4 + 0x134) = 2;
+  FUN_00411350();
+  if (*(int *)(iVar4 + 0x134) == 2) {
+    FUN_00411350();
+  }
+  *(int *)(*(int *)((int)this + 0x4c) + 0x2c8) = iVar4;
+  pvVar7 = operator_new(0x168);
+  if (pvVar7 == (void *)0x0) {
+    iVar4 = 0;
+  }
+  else {
+    iVar4 = FUN_00416f70(0,0,_DAT_00535b3c,_DAT_00535b3c);
+  }
+  *(undefined4 *)(iVar4 + 0xc) = 0x14;
+  uVar8 = _DAT_00535f44;
+  iVar9 = 0;
+  piVar5 = *(int **)((int)this + 0x34);
+  do {
+    if (*piVar5 == 0xda) {
+      piVar5 = *(int **)((int)this + 0x34) + iVar9 * 0x48;
+      goto LAB_0045cb4f;
+    }
+    iVar9 = iVar9 + 1;
+    piVar5 = piVar5 + 0x48;
+  } while (iVar9 < 0x100);
+  piVar5 = (int *)0x0;
+LAB_0045cb4f:
+  *(int **)(iVar4 + 0xb4) = piVar5;
+  *(undefined4 *)(iVar4 + 0x40) = uVar8;
+  *(undefined4 *)(iVar4 + 0x134) = 2;
+  FUN_00411350();
+  if (*(int *)(iVar4 + 0x134) == 2) {
+    FUN_00411350();
+  }
+  *(int *)(*(int *)((int)this + 0x4c) + 0x2cc) = iVar4;
+  pvVar7 = operator_new(0x168);
+  if (pvVar7 == (void *)0x0) {
+    iVar4 = 0;
+  }
+  else {
+    iVar4 = FUN_00416f70(0,0,_DAT_00535b60,_DAT_00535b60);
+  }
+  *(undefined4 *)(iVar4 + 0xc) = 0x14;
+  uVar8 = _DAT_00535f44;
+  iVar9 = 0;
+  piVar5 = *(int **)((int)this + 0x34);
+  do {
+    if (*piVar5 == 0xcb) {
+      piVar5 = *(int **)((int)this + 0x34) + iVar9 * 0x48;
+      goto LAB_0045cbe9;
+    }
+    iVar9 = iVar9 + 1;
+    piVar5 = piVar5 + 0x48;
+  } while (iVar9 < 0x100);
+  piVar5 = (int *)0x0;
+LAB_0045cbe9:
+  *(int **)(iVar4 + 0xb4) = piVar5;
+  *(undefined4 *)(iVar4 + 0x40) = uVar8;
+  *(undefined4 *)(iVar4 + 0x134) = 0;
+  *(undefined4 *)(iVar4 + 0x6c) = 0;
+  *(undefined4 *)(iVar4 + 0x70) = 0;
+  *(undefined4 *)(iVar4 + 0x74) = 0x3f800000;
+  *(undefined4 *)(iVar4 + 0x78) = 0x3f800000;
+  *(int *)(*(int *)((int)this + 0x4c) + 0x2a8) = iVar4;
+  pvVar7 = operator_new(0x168);
+  if (pvVar7 == (void *)0x0) {
+    iVar4 = 0;
+  }
+  else {
+    iVar4 = FUN_00416f70(0,0,_DAT_00535b60,_DAT_00535b60);
+  }
+  *(undefined4 *)(iVar4 + 0xc) = 0x19d;
+  uVar8 = _DAT_00535f44;
+  iVar9 = 0;
+  piVar5 = *(int **)((int)this + 0x34);
+  do {
+    if (*piVar5 == 0x19d) {
+      piVar5 = *(int **)((int)this + 0x34) + iVar9 * 0x48;
+      goto LAB_0045cc7e;
+    }
+    iVar9 = iVar9 + 1;
+    piVar5 = piVar5 + 0x48;
+  } while (iVar9 < 0x100);
+  piVar5 = (int *)0x0;
+LAB_0045cc7e:
+  *(int **)(iVar4 + 0xb4) = piVar5;
+  *(undefined4 *)(iVar4 + 0x40) = uVar8;
+  uVar8 = _DAT_00536580;
+  *(undefined4 *)(iVar4 + 0x134) = 2;
+  *(undefined4 *)(iVar4 + 0x3c) = uVar8;
+  *(undefined4 *)(iVar4 + 0x38) = uVar8;
+  FUN_00411350();
+  *(int *)(*(int *)((int)this + 0x4c) + 0x2e0) = iVar4;
+  pvVar7 = operator_new(0x168);
+  if (pvVar7 == (void *)0x0) {
+    iVar4 = 0;
+  }
+  else {
+    iVar4 = FUN_00416f70(0,0,_DAT_00535b60,_DAT_00535b60);
+  }
+  *(undefined4 *)(iVar4 + 0xc) = 0x19d;
+  iVar9 = 0;
+  piVar5 = *(int **)((int)this + 0x34);
+  do {
+    if (*piVar5 == 0x19d) {
+      piVar5 = *(int **)((int)this + 0x34) + iVar9 * 0x48;
+      goto LAB_0045cd18;
+    }
+    iVar9 = iVar9 + 1;
+    piVar5 = piVar5 + 0x48;
+  } while (iVar9 < 0x100);
+  piVar5 = (int *)0x0;
+LAB_0045cd18:
+  *(undefined4 *)(iVar4 + 0x40) = _DAT_00535f44;
+  *(int **)(iVar4 + 0xb4) = piVar5;
+  uVar8 = _DAT_00535bec;
+  *(undefined4 *)(iVar4 + 0x3c) = _DAT_00535bec;
+  *(undefined4 *)(iVar4 + 0x1c) = 2;
+  *(undefined4 *)(iVar4 + 0x38) = uVar8;
+  *(undefined4 *)(iVar4 + 0x134) = 2;
+  FUN_00411350();
+  *(int *)(*(int *)((int)this + 0x4c) + 0x2e4) = iVar4;
+  pvVar7 = operator_new(0x168);
+  if (pvVar7 == (void *)0x0) {
+    iVar4 = 0;
+  }
+  else {
+    iVar4 = FUN_00416f70(0,0,_DAT_00535b60,_DAT_00535b60);
+  }
+  *(undefined4 *)(iVar4 + 0xc) = 0x34;
+  uVar8 = _DAT_00535f44;
+  iVar9 = 0;
+  piVar5 = *(int **)((int)this + 0x34);
+  do {
+    if (*piVar5 == 0xd8) {
+      piVar5 = *(int **)((int)this + 0x34) + iVar9 * 0x48;
+      goto LAB_0045cdbd;
+    }
+    iVar9 = iVar9 + 1;
+    piVar5 = piVar5 + 0x48;
+  } while (iVar9 < 0x100);
+  piVar5 = (int *)0x0;
+LAB_0045cdbd:
+  *(int **)(iVar4 + 0xb4) = piVar5;
+  *(undefined4 *)(iVar4 + 0x40) = uVar8;
+  *(undefined4 *)(iVar4 + 0x134) = 0;
+  *(undefined4 *)(iVar4 + 0x6c) = 0;
+  *(undefined4 *)(iVar4 + 0x70) = 0;
+  *(undefined4 *)(iVar4 + 0x74) = 0x3f800000;
+  *(undefined4 *)(iVar4 + 0x78) = 0x3f800000;
+  *(int *)(*(int *)((int)this + 0x4c) + 0x2ac) = iVar4;
+  pvVar7 = operator_new(0x168);
+  if (pvVar7 == (void *)0x0) {
+    iVar4 = 0;
+  }
+  else {
+    iVar4 = FUN_00416f70(0,0,_DAT_00535b60,_DAT_00535b60);
+  }
+  *(undefined4 *)(iVar4 + 0xc) = 0x19f;
+  uVar8 = _DAT_00535f44;
+  iVar9 = 0;
+  piVar5 = *(int **)((int)this + 0x34);
+  do {
+    if (*piVar5 == 0xe9) {
+      piVar5 = *(int **)((int)this + 0x34) + iVar9 * 0x48;
+      goto LAB_0045ce5c;
+    }
+    iVar9 = iVar9 + 1;
+    piVar5 = piVar5 + 0x48;
+  } while (iVar9 < 0x100);
+  piVar5 = (int *)0x0;
+LAB_0045ce5c:
+  *(int **)(iVar4 + 0xb4) = piVar5;
+  *(undefined4 *)(iVar4 + 0x40) = uVar8;
+  uVar8 = _DAT_00535d08;
+  *(undefined4 *)(iVar4 + 0x1c) = 0;
+  *(undefined4 *)(iVar4 + 0x3c) = uVar8;
+  *(undefined4 *)(iVar4 + 0x134) = 2;
+  *(undefined4 *)(iVar4 + 0x38) = uVar8;
+  FUN_00411350();
+  *(int *)(*(int *)((int)this + 0x4c) + 0x2e8) = iVar4;
+  pvVar7 = operator_new(0x168);
+  if (pvVar7 == (void *)0x0) {
+    iVar4 = 0;
+  }
+  else {
+    iVar4 = FUN_00416f70(0,0,_DAT_00535b60,_DAT_00535b60);
+  }
+  *(undefined4 *)(iVar4 + 0xc) = 0x19e;
+  uVar8 = _DAT_00535f44;
+  iVar9 = 0;
+  piVar5 = *(int **)((int)this + 0x34);
+  do {
+    if (*piVar5 == 0x19e) {
+      piVar5 = *(int **)((int)this + 0x34) + iVar9 * 0x48;
+      goto LAB_0045cef9;
+    }
+    iVar9 = iVar9 + 1;
+    piVar5 = piVar5 + 0x48;
+  } while (iVar9 < 0x100);
+  piVar5 = (int *)0x0;
+LAB_0045cef9:
+  *(int **)(iVar4 + 0xb4) = piVar5;
+  *(undefined4 *)(iVar4 + 0x40) = uVar8;
+  *(undefined4 *)(iVar4 + 0x134) = 0;
+  uVar8 = _DAT_00536074;
+  *(undefined4 *)(iVar4 + 0x3c) = _DAT_00536074;
+  *(undefined4 *)(iVar4 + 0x38) = uVar8;
+  *(undefined4 *)(iVar4 + 0x6c) = 0;
+  *(undefined4 *)(iVar4 + 0x70) = 0;
+  *(undefined4 *)(iVar4 + 0x74) = 0x3f800000;
+  *(undefined4 *)(iVar4 + 0x78) = 0x3f800000;
+  *(int *)(*(int *)((int)this + 0x4c) + 0x2ec) = iVar4;
+  pvVar7 = operator_new(0x168);
+  if (pvVar7 == (void *)0x0) {
+    iVar4 = 0;
+  }
+  else {
+    iVar4 = FUN_00416f70(0,0,_DAT_00535b60,_DAT_00535b60);
+  }
+  *(undefined4 *)(iVar4 + 0xc) = 0x19e;
+  iVar9 = 0;
+  piVar5 = *(int **)((int)this + 0x34);
+  do {
+    if (*piVar5 == 0x19e) {
+      piVar5 = *(int **)((int)this + 0x34) + iVar9 * 0x48;
+      goto LAB_0045cf99;
+    }
+    iVar9 = iVar9 + 1;
+    piVar5 = piVar5 + 0x48;
+  } while (iVar9 < 0x100);
+  piVar5 = (int *)0x0;
+LAB_0045cf99:
+  *(undefined4 *)(iVar4 + 0x40) = _DAT_00535f44;
+  *(int **)(iVar4 + 0xb4) = piVar5;
+  uVar8 = _DAT_0053657c;
+  *(undefined4 *)(iVar4 + 0x3c) = _DAT_0053657c;
+  *(undefined4 *)(iVar4 + 0x134) = 0;
+  *(undefined4 *)(iVar4 + 0x38) = uVar8;
+  *(undefined4 *)(iVar4 + 0x6c) = 0;
+  *(undefined4 *)(iVar4 + 0x70) = 0;
+  *(undefined4 *)(iVar4 + 0x74) = 0x3f800000;
+  *(undefined4 *)(iVar4 + 0x78) = 0x3f800000;
+  *(int *)(*(int *)((int)this + 0x4c) + 0x2f0) = iVar4;
+  iVar4 = FUN_00470ab0(this,1.0,1.0,0x12f,'\0');
+  uVar8 = _DAT_00535abc;
+  *(undefined4 *)(iVar4 + 0x3c) = _DAT_00535abc;
+  *(undefined *)(iVar4 + 0xaa) = 0;
+  *(undefined4 *)(iVar4 + 0x38) = uVar8;
+  uVar8 = _DAT_00535aec;
+  *(undefined4 *)(iVar4 + 0x7c) = _DAT_00536578;
+  uVar2 = _DAT_0053653c;
+  *(undefined4 *)(iVar4 + 0x80) = uVar8;
+  uVar8 = _DAT_00535bcc;
+  *(undefined4 *)(iVar4 + 0x84) = uVar2;
+  *(undefined4 *)(iVar4 + 0x88) = uVar8;
+  *(int *)(*(int *)((int)this + 0x4c) + 0x2f4) = iVar4;
+  pvVar7 = operator_new(0x168);
+  if (pvVar7 == (void *)0x0) {
+    iVar4 = 0;
+  }
+  else {
+    iVar4 = FUN_00416f70(0,0,_DAT_00535d08,_DAT_00535d08);
+  }
+  *(undefined4 *)(iVar4 + 0xc) = 0x14;
+  uVar8 = _DAT_00536214;
+  iVar9 = 0;
+  piVar5 = *(int **)((int)this + 0x34);
+  do {
+    if (*piVar5 == 0x193) {
+      piVar5 = *(int **)((int)this + 0x34) + iVar9 * 0x48;
+      goto LAB_0045d0bb;
+    }
+    iVar9 = iVar9 + 1;
+    piVar5 = piVar5 + 0x48;
+  } while (iVar9 < 0x100);
+  piVar5 = (int *)0x0;
+LAB_0045d0bb:
+  *(int **)(iVar4 + 0xb4) = piVar5;
+  *(undefined4 *)(iVar4 + 0x40) = uVar8;
+  *(undefined4 *)(iVar4 + 0x134) = 0;
+  *(undefined4 *)(iVar4 + 0x6c) = 0;
+  *(undefined4 *)(iVar4 + 0x70) = 0;
+  *(undefined4 *)(iVar4 + 0x74) = 0x3f800000;
+  *(undefined4 *)(iVar4 + 0x78) = 0x3f800000;
+  *(int *)(*(int *)((int)this + 0x4c) + 0x2b0) = iVar4;
+  pvVar7 = operator_new(0x168);
+  if (pvVar7 == (void *)0x0) {
+    iVar4 = 0;
+  }
+  else {
+    iVar4 = FUN_00416f70(0,0,_DAT_00535d08,_DAT_00535d08);
+  }
+  *(undefined4 *)(iVar4 + 0xc) = 0x14;
+  uVar8 = _DAT_00536214;
+  iVar9 = 0;
+  piVar5 = *(int **)((int)this + 0x34);
+  do {
+    if (*piVar5 == 0x194) {
+      piVar5 = *(int **)((int)this + 0x34) + iVar9 * 0x48;
+      goto LAB_0045d14b;
+    }
+    iVar9 = iVar9 + 1;
+    piVar5 = piVar5 + 0x48;
+  } while (iVar9 < 0x100);
+  piVar5 = (int *)0x0;
+LAB_0045d14b:
+  *(int **)(iVar4 + 0xb4) = piVar5;
+  *(undefined4 *)(iVar4 + 0x40) = uVar8;
+  *(undefined4 *)(iVar4 + 0x134) = 2;
+  FUN_00411350();
+  *(int *)(*(int *)((int)this + 0x4c) + 0x2b4) = iVar4;
+  pvVar7 = operator_new(0x168);
+  if (pvVar7 == (void *)0x0) {
+    iVar4 = 0;
+  }
+  else {
+    iVar4 = FUN_00416f70(0,0,_DAT_00535e1c,_DAT_00535e1c);
+  }
+  *(undefined4 *)(iVar4 + 0xc) = 0x14;
+  uVar8 = _DAT_00536214;
+  iVar9 = 0;
+  piVar5 = *(int **)((int)this + 0x34);
+  do {
+    if (*piVar5 == 0x1a4) {
+      piVar5 = *(int **)((int)this + 0x34) + iVar9 * 0x48;
+      goto LAB_0045d1dc;
+    }
+    iVar9 = iVar9 + 1;
+    piVar5 = piVar5 + 0x48;
+  } while (iVar9 < 0x100);
+  piVar5 = (int *)0x0;
+LAB_0045d1dc:
+  *(int **)(iVar4 + 0xb4) = piVar5;
+  *(undefined4 *)(iVar4 + 0x40) = uVar8;
+  *(undefined4 *)(iVar4 + 0x134) = 2;
+  FUN_00411350();
+  *(int *)(*(int *)((int)this + 0x4c) + 0x2b8) = iVar4;
+  pvVar7 = operator_new(0x168);
+  if (pvVar7 == (void *)0x0) {
+    iVar4 = 0;
+  }
+  else {
+    iVar4 = FUN_00416f70(0,0,_DAT_00535b40,_DAT_00535b40);
+  }
+  *(undefined4 *)(iVar4 + 0xc) = 0x14;
+  uVar8 = _DAT_00536214;
+  iVar9 = 0;
+  piVar5 = *(int **)((int)this + 0x34);
+  do {
+    if (*piVar5 == 0x1a5) {
+      piVar5 = *(int **)((int)this + 0x34) + iVar9 * 0x48;
+      goto LAB_0045d26a;
+    }
+    iVar9 = iVar9 + 1;
+    piVar5 = piVar5 + 0x48;
+  } while (iVar9 < 0x100);
+  piVar5 = (int *)0x0;
+LAB_0045d26a:
+  *(int **)(iVar4 + 0xb4) = piVar5;
+  *(undefined4 *)(iVar4 + 0x40) = uVar8;
+  *(undefined4 *)(iVar4 + 0x134) = 2;
+  FUN_00411350();
+  *(int *)(*(int *)((int)this + 0x4c) + 700) = iVar4;
+  pvVar7 = operator_new(0x168);
+  if (pvVar7 == (void *)0x0) {
+    iVar4 = 0;
+  }
+  else {
+    iVar4 = FUN_00416f70(0,0,_DAT_00535b40,_DAT_00535b40);
+  }
+  *(undefined4 *)(iVar4 + 0xc) = 0x14;
+  uVar8 = _DAT_00536214;
+  iVar9 = 0;
+  piVar5 = *(int **)((int)this + 0x34);
+  do {
+    if (*piVar5 == 0x1a6) {
+      piVar5 = *(int **)((int)this + 0x34) + iVar9 * 0x48;
+      goto LAB_0045d2f8;
+    }
+    iVar9 = iVar9 + 1;
+    piVar5 = piVar5 + 0x48;
+  } while (iVar9 < 0x100);
+  piVar5 = (int *)0x0;
+LAB_0045d2f8:
+  *(int **)(iVar4 + 0xb4) = piVar5;
+  *(undefined4 *)(iVar4 + 0x40) = uVar8;
+  *(undefined4 *)(iVar4 + 0x134) = 2;
+  FUN_00411350();
+  *(int *)(*(int *)((int)this + 0x4c) + 0x2c0) = iVar4;
+  pvVar7 = operator_new(0x168);
+  if (pvVar7 == (void *)0x0) {
+    iVar4 = 0;
+  }
+  else {
+    iVar4 = FUN_00416f70(0,0,_DAT_00535b3c,_DAT_00535b98);
+  }
+  *(undefined4 *)(iVar4 + 0xc) = 0x14;
+  uVar8 = _DAT_00536214;
+  iVar9 = 0;
+  piVar5 = *(int **)((int)this + 0x34);
+  do {
+    if (*piVar5 == 0x1b3) {
+      piVar5 = *(int **)((int)this + 0x34) + iVar9 * 0x48;
+      goto LAB_0045d38a;
+    }
+    iVar9 = iVar9 + 1;
+    piVar5 = piVar5 + 0x48;
+  } while (iVar9 < 0x100);
+  piVar5 = (int *)0x0;
+LAB_0045d38a:
+  *(int **)(iVar4 + 0xb4) = piVar5;
+  *(undefined4 *)(iVar4 + 0x40) = uVar8;
+  *(undefined4 *)(iVar4 + 0x134) = 2;
+  FUN_00411350();
+  *(int *)(*(int *)((int)this + 0x4c) + 0x2c4) = iVar4;
+  pvVar7 = operator_new(0x168);
+  if (pvVar7 == (void *)0x0) {
+    iVar4 = 0;
+  }
+  else {
+    iVar4 = FUN_00416f70(0,0,0,_DAT_00535d90);
+  }
+  *(undefined4 *)(iVar4 + 0xc) = 0x50;
+  uVar8 = _DAT_00536214;
+  iVar9 = 0;
+  piVar5 = *(int **)((int)this + 0x34);
+  do {
+    if (*piVar5 == 0x1ae) {
+      piVar5 = *(int **)((int)this + 0x34) + iVar9 * 0x48;
+      goto LAB_0045d41c;
+    }
+    iVar9 = iVar9 + 1;
+    piVar5 = piVar5 + 0x48;
+  } while (iVar9 < 0x100);
+  piVar5 = (int *)0x0;
+LAB_0045d41c:
+  *(int **)(iVar4 + 0xb4) = piVar5;
+  *(undefined4 *)(iVar4 + 0x40) = uVar8;
+  *(undefined4 *)(iVar4 + 0x134) = 2;
+  FUN_00411350();
+  if (*(int *)(iVar4 + 0x134) == 2) {
+    FUN_00411350();
+  }
+  *(undefined4 *)(iVar4 + 0x48) = 0;
+  *(undefined4 *)(iVar4 + 0x140) = 2;
+  *(int *)(*(int *)((int)this + 0x4c) + 0x1237d4) = iVar4;
+  iVar4 = FUN_00470ab0(this,0.0,0.0,0x66,'\0');
+  *(undefined4 *)(iVar4 + 0x3c) = 0x3f800000;
+  *(undefined4 *)(iVar4 + 0x38) = 0x3f800000;
+  *(int *)(*(int *)((int)this + 0x4c) + 0x122d30) = iVar4;
+  pvVar7 = operator_new(0x280);
+  if (pvVar7 == (void *)0x0) {
+    iVar4 = 0;
+  }
+  else {
+    iVar4 = FUN_00436c30(0,0);
+  }
+  *(undefined4 *)(iVar4 + 0xc) = 0;
+  iVar9 = 0;
+  piVar5 = *(int **)((int)this + 0x34);
+  do {
+    if (*piVar5 == 0x1b8) {
+      piVar5 = *(int **)((int)this + 0x34) + iVar9 * 0x48;
+      goto LAB_0045d4ec;
+    }
+    iVar9 = iVar9 + 1;
+    piVar5 = piVar5 + 0x48;
+  } while (iVar9 < 0x100);
+  piVar5 = (int *)0x0;
+LAB_0045d4ec:
+  *(int **)(iVar4 + 0xb4) = piVar5;
+  FUN_004165a0(0);
+  *(undefined4 *)(iVar4 + 0x40) = _DAT_00535bec;
+  *(int *)(*(int *)((int)this + 0x4c) + 0x122d34) = iVar4;
+  FUN_0045d590();
+  FUN_00460520();
+  FUN_0045f770();
+  FUN_0045ed60();
+  FUN_0045eab0();
+  FUN_0045d970();
+  FUN_0045df00();
+  FUN_0045dc40();
+  FUN_004626f0();
+  FUN_00461f60();
+  FUN_00461d70((int)this);
+  FUN_00461e80();
+  FUN_0045d7a0();
+  FUN_00462210();
+  FUN_0045f010();
+  FUN_0045f360();
+  FUN_00461320((int)this);
+  FUN_004625e0((int)this);
+  FUN_0045f660();
+  FUN_004649e0('\0');
+  return;
+}
+
+
+INFO  REPORT: Save succeeded for processed file: /Spelunky.exe (HeadlessAnalyzer)  

@@ -1,0 +1,202 @@
+INFO  Using log config file: jar:file:/C:/Users/spala/Desktop/Claude/Autotrader/shop_forcer/tools/ghidra_11.2.1_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\spala\AppData\Roaming\ghidra\ghidra_11.2.1_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\spala\AppData\Roaming\ghidra\ghidra_11.2.1_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (633 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (SSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (ApplicationTrustManagerFactory)  
+INFO  Headless startup complete (1766 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 57 extension points (18 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-agent-dbgmodel-traceloader\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Jython\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-agent-frida\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\ghidra_proj\SpelunkyProj (HeadlessAnalyzer)  
+INFO  Opening project: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\ghidra_proj\SpelunkyProj (HeadlessProject)  
+INFO  REPORT: Processing project file: /Frozlunky.exe (HeadlessAnalyzer)  
+INFO  SCRIPT: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\decompile_fn.py (HeadlessAnalyzer)  
+==================== FUN_005f8d60 @ 005f8d60 ====================
+
+/* WARNING: Function: __alloca_probe replaced with injection: alloca_probe */
+
+void __fastcall
+FUN_005f8d60(int param_1_00,undefined4 *param_2_00,LPCVOID param_1,undefined4 param_2,
+            undefined4 param_3,HANDLE param_4)
+
+{
+  code *pcVar1;
+  SIZE_T SVar2;
+  BOOL BVar3;
+  undefined4 ***pppuVar4;
+  uint uVar5;
+  undefined4 ****ppppuVar6;
+  uint uVar7;
+  uint nSize;
+  undefined4 ****_Dst;
+  uint uVar8;
+  uint uVar9;
+  undefined4 *local_104c;
+  HANDLE local_1048;
+  undefined4 *puStack_1044;
+  int local_1040;
+  uint uStack_103c;
+  undefined4 ***pppuStack_1038;
+  undefined4 uStack_1034;
+  undefined4 uStack_1030;
+  undefined4 uStack_102c;
+  uint uStack_1028;
+  uint uStack_1024;
+  _MEMORY_BASIC_INFORMATION local_1020;
+  char acStack_1004 [4096];
+  uint local_4;
+  
+  local_4 = DAT_006afb78 ^ (uint)&local_104c;
+  local_1048 = param_4;
+  local_104c = param_2_00;
+  local_1040 = param_1_00;
+  if (param_1 < (LPCVOID)0x6000000) {
+    do {
+      SVar2 = VirtualQueryEx(param_4,param_1,&local_1020,0x1c);
+      if (SVar2 == 0) break;
+      nSize = (local_1020.RegionSize - (int)param_1) + (int)local_1020.BaseAddress;
+      if (0x1000 < nSize) {
+        nSize = 0x1000;
+      }
+      if ((local_1020.State == 0x1000) &&
+         (BVar3 = ReadProcessMemory(param_4,param_1,acStack_1004,nSize,(SIZE_T *)0x0), BVar3 != 0))
+      {
+        uVar9 = param_2_00[4];
+        uStack_1024 = 0;
+        if (0xf < (uint)param_2_00[5]) {
+          param_2_00 = (undefined4 *)*param_2_00;
+        }
+        puStack_1044 = param_2_00;
+        uStack_103c = uVar9;
+        if (uVar9 < 0x10) {
+          _Dst = (undefined4 ****)*param_2_00;
+          uVar8 = 0xf;
+          pppuStack_1038 = _Dst;
+          uStack_1034 = param_2_00[1];
+          uStack_1030 = param_2_00[2];
+          uStack_102c = param_2_00[3];
+        }
+        else {
+          uVar8 = uVar9 | 0xf;
+          if (0x7fffffff < uVar8) {
+            uVar8 = 0x7fffffff;
+          }
+          uVar5 = uVar8 + 1;
+          if (uVar5 < 0x1000) {
+            if (uVar5 == 0) {
+              _Dst = (undefined4 ****)0x0;
+            }
+            else {
+              _Dst = (undefined4 ****)FUN_005c815b(uVar5);
+            }
+          }
+          else {
+            if (uVar8 + 0x24 <= uVar5) {
+              FUN_0045d720();
+              pcVar1 = (code *)swi(3);
+              (*pcVar1)();
+              return;
+            }
+            pppuVar4 = (undefined4 ***)FUN_005c815b(uVar8 + 0x24);
+            if (pppuVar4 == (undefined4 ***)0x0) goto LAB_005f8f98;
+            _Dst = (undefined4 ****)((int)pppuVar4 + 0x23U & 0xffffffe0);
+            _Dst[-1] = pppuVar4;
+          }
+          pppuStack_1038 = _Dst;
+          memcpy(_Dst,puStack_1044,uVar9 + 1);
+        }
+        uVar7 = 0;
+        uStack_1024 = uVar8;
+        uVar5 = 0;
+        uStack_1028 = uVar9;
+        if (nSize != 0) {
+          do {
+            ppppuVar6 = &pppuStack_1038;
+            if (0xf < uVar8) {
+              ppppuVar6 = _Dst;
+            }
+            if ((*(char *)((int)ppppuVar6 + uVar7) == '.') ||
+               (uVar9 = uStack_103c, acStack_1004[uVar5] == *(char *)(uVar7 + local_1040))) {
+              uVar7 = uVar7 + 1;
+              if (uVar7 == uVar9) {
+                if (0xf < uVar8) {
+                  uVar9 = uVar8 + 1;
+                  ppppuVar6 = _Dst;
+                  if (0xfff < uVar9) {
+                    ppppuVar6 = (undefined4 ****)_Dst[-1];
+                    uVar9 = uVar8 + 0x24;
+                    if (0x1f < (uint)((int)_Dst + (-4 - (int)ppppuVar6))) goto LAB_005f8f98;
+                  }
+                  FUN_005c8121(ppppuVar6,uVar9);
+                }
+                param_2_00 = local_104c;
+                param_4 = local_1048;
+                if (acStack_1004 + (uVar5 - uVar7) + 1 == (char *)0x0) goto LAB_005f8f1e;
+                goto LAB_005f8f35;
+              }
+            }
+            else {
+              uVar5 = uVar5 - uVar7;
+              uVar7 = 0;
+            }
+            uVar5 = uVar5 + 1;
+          } while (uVar5 < nSize);
+        }
+        param_2_00 = local_104c;
+        param_4 = local_1048;
+        if (0xf < uVar8) {
+          uVar9 = uVar8 + 1;
+          ppppuVar6 = _Dst;
+          if (0xfff < uVar9) {
+            ppppuVar6 = (undefined4 ****)_Dst[-1];
+            uVar9 = uVar8 + 0x24;
+            if (0x1f < (uint)((int)_Dst + (-4 - (int)ppppuVar6))) {
+LAB_005f8f98:
+                    /* WARNING: Subroutine does not return */
+              _invalid_parameter_noinfo_noreturn();
+            }
+          }
+          FUN_005c8121(ppppuVar6,uVar9);
+          param_2_00 = local_104c;
+          param_4 = local_1048;
+        }
+      }
+LAB_005f8f1e:
+      param_1 = (LPCVOID)((int)param_1 + nSize);
+    } while (param_1 < (LPCVOID)0x6000000);
+  }
+LAB_005f8f35:
+  FUN_005c810e();
+  return;
+}
+
+
+
+INFO  REPORT: Save succeeded for processed file: /Frozlunky.exe (HeadlessAnalyzer)  

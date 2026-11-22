@@ -1,0 +1,395 @@
+INFO  Using log config file: jar:file:/C:/Users/spala/Desktop/Claude/Autotrader/shop_forcer/tools/ghidra_11.2.1_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\spala\AppData\Roaming\ghidra\ghidra_11.2.1_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\spala\AppData\Roaming\ghidra\ghidra_11.2.1_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (627 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (SSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (ApplicationTrustManagerFactory)  
+INFO  Headless startup complete (1835 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 57 extension points (18 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Jython\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-agent-frida\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-agent-dbgmodel-traceloader\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\ghidra_proj\SpelunkyProj (HeadlessAnalyzer)  
+INFO  Opening project: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\ghidra_proj\SpelunkyProj (HeadlessProject)  
+INFO  REPORT: Processing project file: /Spelunky.exe (HeadlessAnalyzer)  
+INFO  SCRIPT: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\decompile_fn.py (HeadlessAnalyzer)  
+==================== FUN_004cc0b0 @ 004cc0b0 ====================
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_004cc0b0(int param_1,float param_2,float param_3,int param_4)
+
+{
+  void *pvVar1;
+  bool bVar2;
+  bool bVar3;
+  float fVar4;
+  int iVar5;
+  wchar_t *_Src;
+  uint uVar6;
+  int iVar7;
+  int iVar8;
+  int iVar9;
+  float local_18;
+  int local_10 [4];
+  
+  iVar9 = 0;
+  iVar5 = FUN_004cc760(param_2,param_3);
+  bVar3 = false;
+  if (param_4 == 7) {
+    iVar5 = FUN_00470ab0(*(void **)(param_1 + 0x1715c),param_2,param_3 + _DAT_00535ab4,0xbc,'\x01');
+    iVar9 = FUN_00470ab0(*(void **)(param_1 + 0x1715c),param_2,param_3 + _DAT_00535b40,0xbd,'\x01');
+    *(int *)(iVar5 + 0x288) = iVar9;
+    return;
+  }
+  if (param_4 == 5) {
+    iVar9 = FUN_004dd1e0(param_2,param_3,0x3ed,'\x01');
+    *(undefined *)(iVar9 + 500) = 1;
+    *(int *)(iVar9 + 0x160) = iVar5;
+    *(bool *)(iVar9 + 0x9d) = *(int *)(param_1 + 0xa5ec + iVar5 * 4) == 5;
+    *(undefined *)(*(int *)(param_1 + 0x1715c) + 0x4405e7) = 1;
+    iVar5 = FUN_00470ab0(*(void **)(param_1 + 0x1715c),param_2,param_3,0x7b,'\x01');
+    *(int *)(iVar5 + 0x288) = iVar9;
+    return;
+  }
+  if (param_4 == 6) {
+    pvVar1 = *(void **)(param_1 + 0x1715c);
+    if ((((*(char *)((int)pvVar1 + 0x4405ff) == '\0') || (*(char *)((int)pvVar1 + 0x440628) != '\0')
+         ) || (*(int *)(*(int *)((int)pvVar1 + 0x34) + 0x12484) != -1)) ||
+       (*(int *)((int)pvVar1 + 0x446420) != 0)) {
+      iVar9 = FUN_00465330(pvVar1,param_2,param_3,0x5a);
+    }
+    else {
+      *(undefined4 *)(*(int *)((int)pvVar1 + 0x34) + 0x12484) = 0x11;
+      FUN_004eef60();
+      iVar9 = FUN_00465330(*(void **)(param_1 + 0x1715c),param_2,param_3,0x42b);
+      _Src = FUN_00462f80(*(int *)(param_1 + 0x1715c));
+      _wcscpy_s((wchar_t *)(iVar9 + 0xd0),0x30,_Src);
+    }
+    *(undefined *)(iVar9 + 500) = 1;
+    *(bool *)(iVar9 + 0x9d) = *(int *)(param_1 + 0xa5ec + iVar5 * 4) == 5;
+    *(int *)(iVar9 + 0x160) = iVar5;
+    iVar5 = FUN_00470ab0(*(void **)(param_1 + 0x1715c),param_2,param_3,0x7b,'\x01');
+    *(int *)(iVar5 + 0x288) = iVar9;
+    return;
+  }
+  local_10[0] = 0;
+  local_10[1] = 0;
+  local_10[2] = 0;
+  local_10[3] = 0;
+  local_18 = 0.0;
+  do {
+    fVar4 = local_18;
+    bVar2 = false;
+    if (param_4 == 0) {
+      uVar6 = FUN_00407d10();
+      iVar8 = uVar6 % 6 + 1;
+      do {
+        switch(iVar8) {
+        case 1:
+          iVar9 = 0x1f5;
+          bVar2 = true;
+          goto LAB_004cc36f;
+        case 2:
+          iVar9 = 500;
+          bVar2 = true;
+          goto LAB_004cc36f;
+        case 3:
+          iVar9 = 0x1f6;
+          bVar2 = true;
+          goto LAB_004cc36f;
+        case 4:
+          iVar9 = 0x208;
+          break;
+        case 5:
+          iVar9 = 0x1f8;
+          break;
+        case 6:
+          iVar9 = 0x1fd;
+        }
+        if (!bVar2) {
+          iVar7 = 0;
+          bVar2 = true;
+          if (0 < (int)local_18) {
+            do {
+              if (local_10[iVar7] == iVar9) {
+                bVar2 = false;
+                break;
+              }
+              iVar7 = iVar7 + 1;
+            } while (iVar7 < (int)local_18);
+          }
+        }
+LAB_004cc36f:
+        iVar8 = iVar8 + 1;
+        if (6 < iVar8) {
+          iVar8 = 1;
+        }
+      } while (!bVar2);
+    }
+    else if (param_4 == 1) {
+      uVar6 = FUN_00407d10();
+      iVar8 = uVar6 % 10 + 1;
+      do {
+        switch(iVar8) {
+        case 1:
+          iVar9 = 0x1f6;
+          bVar2 = true;
+          goto LAB_004cc410;
+        case 2:
+          iVar9 = 0x1f8;
+          break;
+        case 3:
+          iVar9 = 0x1fd;
+          break;
+        case 4:
+          iVar9 = 0x20a;
+          break;
+        case 5:
+          iVar9 = 0x1fe;
+          break;
+        case 6:
+          iVar9 = 0x202;
+          break;
+        case 7:
+          iVar9 = 0x1fb;
+          break;
+        case 8:
+          iVar9 = 0x207;
+          break;
+        case 9:
+          iVar9 = 0x206;
+          break;
+        case 10:
+          iVar9 = 0x204;
+        }
+        if (!bVar2) {
+          iVar7 = 0;
+          bVar2 = true;
+          if (0 < (int)local_18) {
+            do {
+              if (local_10[iVar7] == iVar9) {
+                bVar2 = false;
+                break;
+              }
+              iVar7 = iVar7 + 1;
+            } while (iVar7 < (int)local_18);
+          }
+        }
+LAB_004cc410:
+        iVar8 = iVar8 + 1;
+        if (10 < iVar8) {
+          iVar8 = 1;
+        }
+      } while (!bVar2);
+    }
+    else if (param_4 == 2) {
+      uVar6 = FUN_00407d10();
+      iVar8 = uVar6 % 7 + 1;
+      do {
+        switch(iVar8) {
+        case 1:
+          iVar9 = 500;
+          bVar2 = true;
+          goto LAB_004cc492;
+        case 2:
+          iVar9 = 0x1f8;
+          break;
+        case 3:
+          iVar9 = 0x1fa;
+          break;
+        case 4:
+          iVar9 = 0x1f9;
+          break;
+        case 5:
+          iVar9 = 0x1fb;
+          break;
+        case 6:
+          iVar9 = 0x209;
+          break;
+        case 7:
+          iVar9 = 0x1f7;
+        }
+        if (!bVar2) {
+          iVar7 = 0;
+          bVar2 = true;
+          if (0 < (int)local_18) {
+            do {
+              if (local_10[iVar7] == iVar9) {
+                bVar2 = false;
+                break;
+              }
+              iVar7 = iVar7 + 1;
+            } while (iVar7 < (int)local_18);
+          }
+        }
+LAB_004cc492:
+        iVar8 = iVar8 + 1;
+        if (7 < iVar8) {
+          iVar8 = 1;
+        }
+      } while (!bVar2);
+    }
+    else if (param_4 == 3) {
+      uVar6 = FUN_00407d10();
+      iVar8 = uVar6 % 3 + 1;
+      do {
+        if (iVar8 == 1) {
+          iVar9 = 0x1f5;
+          bVar2 = true;
+        }
+        else if (iVar8 == 2) {
+          iVar9 = 0x1f6;
+          bVar2 = true;
+        }
+        else {
+          if (iVar8 == 3) {
+            iVar9 = 0x1fc;
+          }
+          if (!bVar2) {
+            iVar7 = 0;
+            bVar2 = true;
+            if (0 < (int)local_18) {
+              do {
+                if (local_10[iVar7] == iVar9) {
+                  bVar2 = false;
+                  break;
+                }
+                iVar7 = iVar7 + 1;
+              } while (iVar7 < (int)local_18);
+            }
+          }
+        }
+        iVar8 = iVar8 + 1;
+        if (3 < iVar8) {
+          iVar8 = 1;
+        }
+      } while (!bVar2);
+    }
+    else if (param_4 == 4) {
+      uVar6 = FUN_00407d10();
+      iVar8 = (uVar6 & 7) + 1;
+      do {
+        switch(iVar8) {
+        case 1:
+        case 2:
+          iVar9 = 0x1f5;
+          bVar2 = true;
+          goto LAB_004cc57f;
+        case 3:
+          iVar9 = 0x202;
+          break;
+        case 4:
+          iVar9 = 0x1fb;
+          break;
+        case 5:
+          iVar9 = 0x200;
+          break;
+        case 6:
+          iVar9 = 0x203;
+          break;
+        case 7:
+          iVar9 = 0x1ff;
+          break;
+        case 8:
+          iVar9 = 0x204;
+        }
+        if (!bVar2) {
+          iVar7 = 0;
+          bVar2 = true;
+          if (0 < (int)local_18) {
+            do {
+              if (local_10[iVar7] == iVar9) {
+                bVar2 = false;
+                break;
+              }
+              iVar7 = iVar7 + 1;
+            } while (iVar7 < (int)local_18);
+          }
+        }
+LAB_004cc57f:
+        iVar8 = iVar8 + 1;
+        if (8 < iVar8) {
+          iVar8 = 1;
+        }
+      } while (!bVar2);
+    }
+    else if (param_4 == 8) {
+      uVar6 = FUN_00407d10();
+      iVar8 = (uVar6 & 1) + 1;
+      do {
+        if (iVar8 == 1) {
+          iVar9 = 0x1f5;
+LAB_004cc5b8:
+          bVar2 = true;
+        }
+        else if (iVar8 == 2) {
+          iVar9 = 500;
+          goto LAB_004cc5b8;
+        }
+        iVar8 = iVar8 + 1;
+        if (6 < iVar8) {
+          iVar8 = 1;
+        }
+      } while (!bVar2);
+    }
+    if ((bVar3) || (uVar6 = FUN_00407d10(), uVar6 % 0x14 != 0)) {
+      local_18 = (float)(int)local_18 + param_2;
+      iVar8 = FUN_004dd1e0(local_18,param_3,iVar9,'\x01');
+    }
+    else {
+      local_18 = (float)(int)local_18 + param_2;
+      iVar8 = FUN_004dd1e0(local_18,param_3,0xf8,'\x01');
+      uVar6 = FUN_00407d10();
+      iVar7 = uVar6 % 0x15 + 500;
+      *(int *)(iVar8 + 0x148) = iVar7;
+      if (iVar7 == 0x201) {
+        *(undefined4 *)(iVar8 + 0x148) = 0x209;
+      }
+      if (*(int *)(iVar8 + 0x148) == 0x205) {
+        *(undefined4 *)(iVar8 + 0x148) = 0x20a;
+      }
+      bVar3 = true;
+    }
+    *(undefined *)(iVar8 + 500) = 1;
+    *(int *)(iVar8 + 0x160) = iVar5;
+    pvVar1 = *(void **)(param_1 + 0x1715c);
+    local_10[(int)fVar4] = iVar9;
+    iVar7 = FUN_00470ab0(pvVar1,local_18,param_3,0x7b,'\x01');
+    local_18 = (float)((int)fVar4 + 1);
+    *(int *)(iVar7 + 0x288) = iVar8;
+    if (3 < (int)local_18) {
+      return;
+    }
+  } while( true );
+}
+
+
+
+INFO  REPORT: Save succeeded for processed file: /Spelunky.exe (HeadlessAnalyzer)  

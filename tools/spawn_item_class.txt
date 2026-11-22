@@ -1,0 +1,116 @@
+INFO  Using log config file: jar:file:/C:/Users/spala/Desktop/Claude/Autotrader/shop_forcer/tools/ghidra_11.2.1_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\spala\AppData\Roaming\ghidra\ghidra_11.2.1_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\spala\AppData\Roaming\ghidra\ghidra_11.2.1_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (576 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (SSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (ApplicationTrustManagerFactory)  
+INFO  Headless startup complete (1740 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 57 extension points (18 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-agent-dbgmodel-traceloader\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Jython\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-agent-frida\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\ghidra_proj\SpelunkyProj (HeadlessAnalyzer)  
+INFO  Opening project: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\ghidra_proj\SpelunkyProj (HeadlessProject)  
+INFO  REPORT: Processing project file: /Spelunky.exe (HeadlessAnalyzer)  
+INFO  SCRIPT: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\find_spawn_with_item_class.py (HeadlessAnalyzer)  
+total call sites: 700
+call sites with a nearby item-class immediate: 41
+
+FUN_0044f4b0 @ 0044f4b0 - 14 matching call(s):
+    call@0044faa6  imm=509 (0x1fd) from 0044fa94: PUSH 0x1fd
+    call@0044fb2f  imm=520 (0x208) from 0044fb1d: PUSH 0x208
+    call@0044fbb8  imm=504 (0x1f8) from 0044fba6: PUSH 0x1f8
+    call@0044fc41  imm=505 (0x1f9) from 0044fc2f: PUSH 0x1f9
+    call@0044fcca  imm=506 (0x1fa) from 0044fcb8: PUSH 0x1fa
+    call@0044fd53  imm=507 (0x1fb) from 0044fd41: PUSH 0x1fb
+    call@0044fddc  imm=503 (0x1f7) from 0044fdca: PUSH 0x1f7
+    call@0044fe65  imm=526 (0x20e) from 0044fe53: PUSH 0x20e
+    call@0044feee  imm=529 (0x211) from 0044fedc: PUSH 0x211
+    call@0044ff77  imm=527 (0x20f) from 0044ff65: PUSH 0x20f
+    call@00450000  imm=531 (0x213) from 0044ffee: PUSH 0x213
+    call@00450089  imm=508 (0x1fc) from 00450077: PUSH 0x1fc
+    call@00450115  imm=513 (0x201) from 00450103: PUSH 0x201
+    call@004501a1  imm=533 (0x215) from 0045018f: PUSH 0x215
+
+FUN_004d6690 @ 004d6690 - 5 matching call(s):
+    call@004dae5b  imm=528 (0x210) from 004dae4c: PUSH 0x210
+    call@004dcad9  imm=531 (0x213) from 004dcac4: PUSH 0x213
+    call@004d9f30  imm=523 (0x20b) from 004d9f11: PUSH 0x20b
+    call@004da70c  imm=522 (0x20a) from 004da6f1: PUSH 0x20a
+    call@004da74c  imm=510 (0x1fe) from 004da731: PUSH 0x1fe
+
+FUN_00436d40 @ 00436d40 - 3 matching call(s):
+    call@00438b4b  imm=530 (0x212) from 00438b39: PUSH 0x212
+    call@0043ae3a  imm=521 (0x209) from 0043ae28: PUSH 0x209
+    call@0043aebc  imm=532 (0x214) from 0043aeaa: PUSH 0x214
+
+FUN_00466140 @ 00466140 - 3 matching call(s):
+    call@00466a7e  imm=522 (0x20a) from 00466a6a: PUSH 0x20a
+    call@00466b82  imm=521 (0x209) from 00466b6e: PUSH 0x209
+    call@00466ce1  imm=532 (0x214) from 00466ccd: PUSH 0x214
+
+FUN_00432c40 @ 00432c40 - 2 matching call(s):
+    call@004336d2  imm=500 (0x1f4) from 004336b4: MOV ESI,0x1f4
+    call@00433e64  imm=527 (0x20f) from 00433e50: PUSH 0x20f
+
+FUN_00449f30 @ 00449f30 - 2 matching call(s):
+    call@0044a16d  imm=529 (0x211) from 0044a160: MOV byte ptr [ESI + 0x211],0x1
+    call@0044a1db  imm=529 (0x211) from 0044a1b3: MOV byte ptr [ESI + 0x211],0x1
+
+FUN_004c6580 @ 004c6580 - 2 matching call(s):
+    call@004c6723  imm=515 (0x203) from 004c670f: MOV byte ptr [ESI + 0x203],0x1
+    call@004c67e6  imm=515 (0x203) from 004c67cf: MOV byte ptr [EBP + 0x203],0x1
+
+FUN_00414f30 @ 00414f30 - 2 matching call(s):
+    call@004152a9  imm=526 (0x20e) from 00415297: PUSH 0x20e
+    call@004154cf  imm=502 (0x1f6) from 004154bd: PUSH 0x1f6
+
+FUN_0044dd70 @ 0044dd70 - 1 matching call(s):
+    call@0044e135  imm=500 (0x1f4) from 0044e121: PUSH 0x1f4
+
+FUN_00429120 @ 00429120 - 1 matching call(s):
+    call@00429503  imm=529 (0x211) from 004294ec: PUSH 0x211
+
+FUN_0043df00 @ 0043df00 - 1 matching call(s):
+    call@0043e234  imm=503 (0x1f7) from 0043e21d: MOV byte ptr [ESI + 0x1f7],0x0
+
+FUN_0044f190 @ 0044f190 - 1 matching call(s):
+    call@0044f21e  imm=515 (0x203) from 0044f20c: PUSH 0x203
+
+FUN_004e2cd0 @ 004e2cd0 - 1 matching call(s):
+    call@004e7128  imm=515 (0x203) from 004e7116: PUSH 0x203
+
+FUN_0044b460 @ 0044b460 - 1 matching call(s):
+    call@0044b4a1  imm=515 (0x203) from 0044b48f: PUSH 0x203
+
+FUN_004cc0b0 @ 004cc0b0 - 1 matching call(s):
+    call@004cc6b8  imm=500 (0x1f4) from 004cc69a: MOV byte ptr [EDI + 0x1f4],0x1
+
+FUN_0041c740 @ 0041c740 - 1 matching call(s):
+    call@0041d008  imm=529 (0x211) from 0041cfe7: MOV byte ptr [EAX + 0x211],0x1
+INFO  REPORT: Save succeeded for processed file: /Spelunky.exe (HeadlessAnalyzer)  

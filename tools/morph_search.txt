@@ -1,0 +1,913 @@
+INFO  Using log config file: jar:file:/C:/Users/spala/Desktop/Claude/Autotrader/shop_forcer/tools/ghidra_11.2.1_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\spala\AppData\Roaming\ghidra\ghidra_11.2.1_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\spala\AppData\Roaming\ghidra\ghidra_11.2.1_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (574 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (SSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (ApplicationTrustManagerFactory)  
+INFO  Headless startup complete (1710 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 57 extension points (18 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-agent-dbgmodel-traceloader\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Jython\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Debug\Debugger-agent-frida\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\ghidra_11.2.1_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\ghidra_proj\SpelunkyProj (HeadlessAnalyzer)  
+INFO  Opening project: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\ghidra_proj\SpelunkyProj (HeadlessProject)  
+INFO  REPORT: Processing project file: /Spelunky.exe (HeadlessAnalyzer)  
+INFO  SCRIPT: C:\Users\spala\Desktop\Claude\Autotrader\shop_forcer\tools\find_morph_fn.py (HeadlessAnalyzer)  
+functions writing a REGISTER value to [.. + 0xc]: 197
+
+FUN_0041e2f0 @ 0041e2f0 - 20 hit(s):
+    0041faea: MOV dword ptr [EBP + 0xc0], ESI
+    0041fbf5: MOV dword ptr [EBP + 0xc0], ESI
+    0041fc90: MOV dword ptr [EBP + 0xc0], ESI
+    0041fcf1: MOV dword ptr [EBP + 0xc0], ESI
+    0041fd71: MOV dword ptr [EBP + 0xc4], ESI
+    0041fdf1: MOV dword ptr [EBP + 0xcc], ESI
+    0041fe71: MOV dword ptr [EBP + 0xc8], ESI
+    0041ff16: MOV dword ptr [EBP + 0xc0], ESI
+    00420010: MOV dword ptr [EBP + 0xc0], ESI
+    00420137: MOV dword ptr [EBP + 0xc0], ESI
+    004201e0: MOV dword ptr [EBP + 0xc8], ESI
+    00420254: MOV dword ptr [EBP + 0xcc], ESI
+    0042031d: MOV dword ptr [EBP + 0xc0], ESI
+    004203e6: MOV dword ptr [EBP + 0xc0], ESI
+    004204ab: MOV dword ptr [EBP + 0xcc], ESI
+    00420570: MOV dword ptr [EBP + 0xc8], ESI
+    00420635: MOV dword ptr [EBP + 0xcc], ESI
+    004206fa: MOV dword ptr [EBP + 0xc8], ESI
+    004207c3: MOV dword ptr [EBP + 0xcc], ESI
+    0042088c: MOV dword ptr [EBP + 0xc8], ESI
+
+FUN_00432c40 @ 00432c40 - 15 hit(s):
+    00432d96: MOV dword ptr [ESP + 0xc], EDX
+    00432df7: MOV dword ptr [ESP + 0xc], EDX
+    00432fb1: MOV dword ptr [ESP + 0xc], EDX
+    00432ffd: MOV dword ptr [ESP + 0xc], EDX
+    004332a6: MOV dword ptr [ESP + 0xc], EDX
+    00433777: MOV dword ptr [ESP + 0xc], EDX
+    004337c3: MOV dword ptr [ESP + 0xc], EDX
+    004338cf: MOV dword ptr [ESP + 0xc], EDX
+    0043390d: MOV dword ptr [ESP + 0xc], EDX
+    00433a28: MOV dword ptr [ESP + 0xc], EDX
+    00433a64: MOV dword ptr [ESP + 0xc], EDX
+    00433b67: MOV dword ptr [ESP + 0xc], EDX
+    00433bb3: MOV dword ptr [ESP + 0xc], EDX
+    00433d20: MOV dword ptr [ESP + 0xc], EDX
+    00433e88: MOV dword ptr [ESP + 0xc], EDX
+
+FUN_004eaf70 @ 004eaf70 - 14 hit(s):
+    004eafb4: MOV dword ptr [EAX + 0xc], EDI
+    004eafff: MOV dword ptr [EAX + 0xc], EDI
+    004eb059: MOV dword ptr [EAX + 0xc], EDI
+    004eb0b4: MOV dword ptr [EAX + 0xc], EDI
+    004eb0d9: MOV dword ptr [ESI + 0xc], EAX
+    004eb10f: MOV dword ptr [EAX + 0xc], EDI
+    004eb16a: MOV dword ptr [EAX + 0xc], EDI
+    004eb1c5: MOV dword ptr [EAX + 0xc], EDI
+    004eb220: MOV dword ptr [EAX + 0xc], EDI
+    004eb27b: MOV dword ptr [EAX + 0xc], EDI
+    004eb2d6: MOV dword ptr [EAX + 0xc], EDI
+    004eb331: MOV dword ptr [EAX + 0xc], EDI
+    004eb38c: MOV dword ptr [EAX + 0xc], EDI
+    004eb3e7: MOV dword ptr [EAX + 0xc], EDI
+
+FUN_00463000 @ 00463000 - 13 hit(s):
+    00463ad3: MOV dword ptr [ESI + 0xc], EDI
+    00463bba: MOV dword ptr [ESI + 0xc], EDI
+    00463cb3: MOV dword ptr [ESI + 0xc], EDI
+    00463da1: MOV dword ptr [ESI + 0xc], EDI
+    00463e8d: MOV dword ptr [ESI + 0xc], EDI
+    00463f7c: MOV dword ptr [EAX + 0xc], EDI
+    00464059: MOV dword ptr [ESI + 0xc], EDI
+    004644c6: MOV dword ptr [ESI + 0xc], EBX
+    004645b0: MOV dword ptr [ESI + 0xc], EBX
+    0046469a: MOV dword ptr [EAX + 0xc], EDI
+    0046477c: MOV dword ptr [ESI + 0xc], EBX
+    0046485f: MOV dword ptr [ESI + 0xc], EBX
+    0046493d: MOV dword ptr [EAX + 0xc], EDI
+
+FUN_0045a8f0 @ 0045a8f0 - 11 hit(s):
+    0045a910: MOV dword ptr [EAX + 0xc], EBX
+    0045a945: MOV dword ptr [EAX + 0xc], EBX
+    0045a97a: MOV dword ptr [EAX + 0xc], EBX
+    0045a9af: MOV dword ptr [EAX + 0xc], EBX
+    0045ab47: MOV dword ptr [EBX + 0xc], EAX
+    0045abf0: MOV dword ptr [EAX + 0xc], ECX
+    0045ac24: MOV dword ptr [EAX + 0xc], ECX
+    0045ad07: MOV dword ptr [ESP + 0xc], EDX
+    0045ad9e: MOV dword ptr [EBX + 0xc0], ESI
+    0045b172: MOV word ptr [EBX + 0xc6], AX
+    0045b26c: MOV dword ptr [EBX + 0xc], ESI
+
+FUN_004c6580 @ 004c6580 - 11 hit(s):
+    004c6990: MOV dword ptr [EAX + 0xc], EDX
+    004c6aa6: MOV dword ptr [EAX + 0xc], EDX
+    004c6bd3: MOV dword ptr [EAX + 0xc], EDX
+    004c6f4e: MOV dword ptr [EAX + 0xc], EDX
+    004c71b9: MOV dword ptr [EAX + 0xc], ECX
+    004c7368: MOV dword ptr [EAX + 0xc], EDX
+    004c7674: MOV dword ptr [EAX + 0xc], ECX
+    004c7987: MOV dword ptr [EAX + 0xc], ECX
+    004c7be1: MOV dword ptr [EAX + 0xc], ECX
+    004c7ea8: MOV dword ptr [EAX + 0xc], EDX
+    004c81cb: MOV dword ptr [EAX + 0xc], EDX
+
+FUN_00470ab0 @ 00470ab0 - 11 hit(s):
+    004713f2: MOV dword ptr [EBX + 0xc], EDX
+    004715e9: MOV dword ptr [EDI + 0xc], EDX
+    00479203: MOV dword ptr [EDI + 0xc], EDX
+    00479e82: MOV dword ptr [EDI + 0xc], EBX
+    0047b9c7: MOV dword ptr [EDI + 0xc], EBX
+    0047ba8e: MOV dword ptr [EDI + 0xc], EBX
+    0047bc37: MOV dword ptr [EDI + 0xc], EBX
+    0047bf5d: MOV dword ptr [EDI + 0xc], EBX
+    0047c078: MOV dword ptr [EDI + 0xc], EBX
+    0047c0bb: MOV dword ptr [EDI + 0xc], EBX
+    0047c17d: MOV dword ptr [EDI + 0xc], EBX
+
+FUN_0048ef00 @ 0048ef00 - 11 hit(s):
+    0048f131: MOV dword ptr [EAX + 0xc], EBP
+    0048f217: MOV dword ptr [EDI + 0xc], EAX
+    0048f21a: MOV dword ptr [EAX + 0xc], EBP
+    0048f2ec: MOV dword ptr [EAX + 0xc], EBP
+    0048f3dd: MOV dword ptr [EAX + 0xc], EBP
+    0048f4b1: MOV dword ptr [EAX + 0xc], EBP
+    0048f59e: MOV dword ptr [EAX + 0xc], EBP
+    0048f692: MOV dword ptr [ECX + 0xc], EDX
+    0048f6ce: MOV dword ptr [ECX + 0xc], EDX
+    0048f718: MOV dword ptr [ECX + 0xc], EDX
+    0048f747: MOV dword ptr [ECX + 0xc], EDX
+
+FUN_0040e5f0 @ 0040e5f0 - 10 hit(s):
+    0040e639: MOV dword ptr [ESP + 0xc], EBP
+    0040e73a: MOV dword ptr [ESP + 0xc], EDI
+    0040e75d: MOV dword ptr [ESP + 0xc], EDI
+    0040e788: MOV dword ptr [ESP + 0xc], EBP
+    0040e7fe: MOV dword ptr [ESP + 0xc], ESI
+    0040e861: MOV dword ptr [EAX + -0xc], EDI
+    0040e8de: MOV dword ptr [EAX + 0xc], EDI
+    0040e975: MOV dword ptr [ECX + 0xc], EDI
+    0040e9c6: MOV dword ptr [EAX + -0xc], EDI
+    0040e9e9: MOV dword ptr [ESP + 0xc], ESI
+
+FUN_004c4ea0 @ 004c4ea0 - 10 hit(s):
+    004c502f: MOV dword ptr [EAX + 0xc], EDX
+    004c517f: MOV dword ptr [EAX + 0xc], ECX
+    004c529a: MOV dword ptr [EAX + 0xc], ECX
+    004c5620: MOV dword ptr [EAX + 0xc], EDX
+    004c5889: MOV dword ptr [EAX + 0xc], ECX
+    004c5a35: MOV dword ptr [EAX + 0xc], EDX
+    004c5cfb: MOV dword ptr [EAX + 0xc], EDX
+    004c5f69: MOV dword ptr [EAX + 0xc], ECX
+    004c622b: MOV dword ptr [EAX + 0xc], ECX
+    004c6557: MOV dword ptr [EAX + 0xc], EDX
+
+FUN_00424d00 @ 00424d00 - 10 hit(s):
+    00424fa0: MOV dword ptr [ESP + 0xc], EAX
+    00424fc0: MOV dword ptr [ESP + 0xc], EAX
+    00424fe4: MOV dword ptr [ESP + 0xc], EAX
+    00425004: MOV dword ptr [ESP + 0xc], EAX
+    00425023: MOV dword ptr [ESP + 0xc], EAX
+    00425043: MOV dword ptr [ESP + 0xc], EAX
+    00425067: MOV dword ptr [ESP + 0xc], EAX
+    00425087: MOV dword ptr [ESP + 0xc], EAX
+    004250ab: MOV dword ptr [ESP + 0xc], EAX
+    004250cb: MOV dword ptr [ESP + 0xc], EAX
+
+FUN_00460520 @ 00460520 - 9 hit(s):
+    00460662: MOV dword ptr [ESI + 0xc], EDI
+    00460753: MOV dword ptr [ESI + 0xc], EDI
+    0046093b: MOV dword ptr [ESI + 0xc], EBP
+    00460a31: MOV dword ptr [ESI + 0xc], EDI
+    00460b2a: MOV dword ptr [ESI + 0xc], EDI
+    00460d20: MOV dword ptr [ESI + 0xc], EBP
+    00460e13: MOV dword ptr [ESI + 0xc], EBP
+    00460fed: MOV dword ptr [ESI + 0xc], EDI
+    004610d4: MOV dword ptr [ESI + 0xc], EDI
+
+FUN_0045c6a0 @ 0045c6a0 - 7 hit(s):
+    0045cc5c: MOV dword ptr [ESI + 0xc], EDI
+    0045ccf4: MOV dword ptr [ESI + 0xc], EDI
+    0045ced3: MOV dword ptr [EAX + 0xc], EDI
+    0045cf71: MOV dword ptr [EAX + 0xc], EDI
+    0045d098: MOV dword ptr [EAX + 0xc], EDI
+    0045d129: MOV dword ptr [ESI + 0xc], EDI
+    0045d4bb: MOV dword ptr [ESI + 0xc], EBX
+
+FUN_0045c100 @ 0045c100 - 7 hit(s):
+    0045c20f: MOV dword ptr [EBX + 0xc0], ECX
+    0045c223: MOV dword ptr [EBX + 0xc4], ECX
+    0045c259: MOV dword ptr [ESP + 0xc], EAX
+    0045c349: MOV dword ptr [EAX + 0xc8], ECX
+    0045c353: MOV dword ptr [EAX + 0xcc], EDX
+    0045c48c: MOV dword ptr [EAX + ECX*0x1 + 0xc], EDX
+    0045c5d8: MOV dword ptr [ESP + 0xc], EAX
+
+FID_conflict:__ld12tod @ 0050a3d2 - 6 hit(s):
+    0050a46c: MOV dword ptr [EBP + -0xc], EAX
+    0050a5d2: MOV dword ptr [EBP + -0xc], ESI
+    0050a61a: MOV dword ptr [EBP + -0xc], EAX
+    0050a743: MOV dword ptr [EBP + -0xc], ESI
+    0050a7f6: MOV dword ptr [EBP + -0xc], ESI
+    0050a8a5: MOV dword ptr [EBP + -0xc], EDI
+
+_$I10_OUTPUT @ 0050b821 - 6 hit(s):
+    0050ba36: MOV dword ptr [EBP + -0xc], ECX
+    0050bb7d: MOV dword ptr [EBP + -0xc], EAX
+    0050bbd8: MOV dword ptr [EBP + -0xc], ESI
+    0050bc99: MOV dword ptr [EBP + -0xc], EDX
+    0050be0c: MOV dword ptr [EBP + -0xc], EAX
+    0050be65: MOV dword ptr [EBP + -0xc], EDI
+
+FUN_0042cbe0 @ 0042cbe0 - 6 hit(s):
+    0042cf40: MOV dword ptr [ESP + 0xc], EAX
+    0042d026: MOV dword ptr [ESP + 0xc], EAX
+    0042d15a: MOV dword ptr [ESP + 0xc], ECX
+    0042d167: MOV dword ptr [ESP + 0xc], EDI
+    0042d207: MOV dword ptr [ESP + 0xc], ECX
+    0042d28a: MOV dword ptr [ESP + 0xc], ECX
+
+FUN_004b5e40 @ 004b5e40 - 6 hit(s):
+    004b6134: MOV dword ptr [ESP + 0xc0], EDX
+    004b613f: MOV dword ptr [ESP + 0xc4], EAX
+    004b614a: MOV dword ptr [ESP + 0xc8], ECX
+    004b6155: MOV dword ptr [ESP + 0xcc], EDX
+    004b6636: MOV dword ptr [EAX + 0xc], ECX
+    004b6679: MOV dword ptr [EAX + 0xc], ECX
+
+FID_conflict:__ld12tod @ 00509e8e - 6 hit(s):
+    00509f28: MOV dword ptr [EBP + -0xc], EAX
+    0050a08e: MOV dword ptr [EBP + -0xc], ESI
+    0050a0d6: MOV dword ptr [EBP + -0xc], EAX
+    0050a1ff: MOV dword ptr [EBP + -0xc], ESI
+    0050a2b2: MOV dword ptr [EBP + -0xc], ESI
+    0050a361: MOV dword ptr [EBP + -0xc], EDI
+
+FUN_004ef970 @ 004ef970 - 5 hit(s):
+    004efd19: MOV dword ptr [ESP + 0xc1], EAX
+    004efd20: MOV word ptr [ESP + 0xc5], AX
+    004efd28: MOV byte ptr [ESP + 0xc7], AL
+    004efd2f: MOV dword ptr [ESP + 0xc8], ECX
+    004efdba: MOV dword ptr [ESP + 0xcc], EDX
+
+FUN_004ad2b0 @ 004ad2b0 - 5 hit(s):
+    004ad8ad: MOV dword ptr [EAX + 0xc], EDX
+    004ad976: MOV dword ptr [EAX + 0xc], ECX
+    004ada53: MOV dword ptr [EAX + 0xc], ECX
+    004adba7: MOV dword ptr [EAX + 0xc], EDX
+    004adee8: MOV dword ptr [EAX + 0xc], EDX
+
+FUN_00466140 @ 00466140 - 5 hit(s):
+    00466787: MOV dword ptr [EAX + 0xc], EDX
+    004669b1: MOV dword ptr [EAX + 0xc], EDX
+    00466adf: MOV dword ptr [EAX + 0xc], EDX
+    00466be3: MOV dword ptr [EAX + 0xc], EDX
+    00466d42: MOV dword ptr [EAX + 0xc], EDX
+
+FUN_004110f0 @ 004110f0 - 5 hit(s):
+    0041113a: MOV dword ptr [ESI + 0xc], EAX
+    00411271: MOV dword ptr [ESI + 0xc0], EAX
+    00411277: MOV dword ptr [ESI + 0xc4], EAX
+    0041127d: MOV dword ptr [ESI + 0xc8], EAX
+    00411283: MOV dword ptr [ESI + 0xcc], EAX
+
+FUN_004a6800 @ 004a6800 - 4 hit(s):
+    004a68c1: MOV dword ptr [EAX + 0xc], EDX
+    004a68cd: MOV dword ptr [ESP + 0xc], EBX
+    004a69b3: MOV dword ptr [EAX + 0xc], ECX
+    004a6af5: MOV dword ptr [EAX + 0xc], EDX
+
+__flsbuf @ 004fbf5e - 4 hit(s):
+    004fbf6e: MOV dword ptr [EBP + 0xc], EAX
+    004fbfbb: MOV dword ptr [ESI + 0xc], EAX
+    004fbfc7: MOV dword ptr [ESI + 0xc], EAX
+    004fc03d: MOV dword ptr [ESI + 0xc], EAX
+
+__openfile @ 004fa9fa - 4 hit(s):
+    004faa11: MOV dword ptr [EBP + -0xc], EBX
+    004faa5c: MOV dword ptr [EBP + 0xc], EBX
+    004fab14: MOV dword ptr [EBP + 0xc], EAX
+    004facaa: MOV dword ptr [EAX + 0xc], ECX
+
+FUN_0048fa40 @ 0048fa40 - 4 hit(s):
+    0048fe7f: MOV byte ptr [EAX + 0xcf], BL
+    0048fe8f: MOV dword ptr [EAX + 0xc8], EBX
+    0048ff30: MOV dword ptr [EDX + 0xc0], EBX
+    0048ff3e: MOV dword ptr [EAX + 0xc4], EBX
+
+___sbh_free_block @ 004fc2d1 - 4 hit(s):
+    004fc316: MOV dword ptr [EBP + -0xc], EDX
+    004fc322: MOV dword ptr [EBP + 0xc], EBX
+    004fc3b2: MOV dword ptr [EBP + -0xc], EBX
+    004fc3c6: MOV dword ptr [EBP + 0xc], ESI
+
+FUN_0045be30 @ 0045be30 - 4 hit(s):
+    0045be42: MOV dword ptr [ESP + 0xc], ESI
+    0045be71: MOV dword ptr [ESP + 0xc], ECX
+    0045bef7: MOV dword ptr [ESP + 0xc], EDX
+    0045bf09: MOV dword ptr [ESP + 0xc], ESI
+
+FUN_00461320 @ 00461320 - 4 hit(s):
+    00461603: MOV dword ptr [ESI + 0xc], EBX
+    00461733: MOV dword ptr [ESI + 0xc], EBX
+    0046185d: MOV dword ptr [ESI + 0xc], EBX
+    00461940: MOV dword ptr [ESI + 0xc], EBX
+
+__cftoa_l @ 00504611 - 4 hit(s):
+    00504691: MOV dword ptr [EBP + -0xc], EAX
+    005047a5: MOV dword ptr [EBP + 0xc], EAX
+    005047d8: MOV dword ptr [EBP + -0xc], EDX
+    0050482d: MOV dword ptr [EBP + -0xc], EAX
+
+__flswbuf @ 00501635 - 4 hit(s):
+    00501645: MOV dword ptr [EBP + 0xc], EAX
+    00501692: MOV dword ptr [ESI + 0xc], EAX
+    005016a9: MOV dword ptr [ESI + 0xc], EAX
+    0050171a: MOV dword ptr [ESI + 0xc], EAX
+
+__crtLCMapStringA_stat @ 004f8914 - 4 hit(s):
+    004f8a30: MOV dword ptr [EBP + -0xc], EAX
+    004f8a35: MOV dword ptr [EBP + -0xc], EBX
+    004f8b4e: MOV dword ptr [EBP + -0xc], EBX
+    004f8ba4: MOV dword ptr [EBP + -0xc], EAX
+
+__ungetwc_nolock @ 004f6e8b - 3 hit(s):
+    004f6f81: MOV byte ptr [EBP + -0xc], DL
+    004f6fe4: MOV dword ptr [ESI + 0xc], EAX
+    004f703d: MOV dword ptr [ESI + 0xc], EAX
+
+FUN_004698e0 @ 004698e0 - 3 hit(s):
+    00469a06: MOV dword ptr [ESI + 0xc0], EBX
+    00469b0b: MOV dword ptr [ESI + 0xc0], EAX
+    0046a11f: MOV dword ptr [ESI + 0xc0], EBX
+
+FUN_004d6690 @ 004d6690 - 3 hit(s):
+    004db47c: MOV dword ptr [EBP + ECX*0x4 + 0xc], EAX
+    004dc625: MOV dword ptr [EAX + 0xc], EDX
+    004dc882: MOV dword ptr [EBP + ECX*0x4 + 0xc], EAX
+
+_realloc @ 00504e8b - 3 hit(s):
+    00504f54: MOV dword ptr [EBP + 0xc], ESI
+    00504f5d: MOV dword ptr [EBP + 0xc], ESI
+    00504fb2: MOV dword ptr [EBP + 0xc], ESI
+
+FUN_004984a0 @ 004984a0 - 3 hit(s):
+    0049bf22: MOV dword ptr [EAX + 0xc], EBX
+    0049bff0: MOV dword ptr [EAX + 0xc], EBX
+    0049c0be: MOV dword ptr [EAX + 0xc], EBX
+
+FUN_0044db90 @ 0044db90 - 3 hit(s):
+    0044dc52: MOV dword ptr [ESP + 0xc], EAX
+    0044dc93: MOV dword ptr [ESP + 0xc], EDX
+    0044dcc2: MOV dword ptr [ESP + 0xc], EDX
+
+_parse_cmdline @ 005029fe - 3 hit(s):
+    00502a49: MOV dword ptr [EBP + 0xc], EDX
+    00502b15: MOV dword ptr [EBP + 0xc], EDX
+    00502b7b: MOV dword ptr [EBP + 0xc], EDX
+
+FUN_00446940 @ 00446940 - 3 hit(s):
+    00446abf: MOV dword ptr [ESP + 0xc], EDX
+    00446ae2: MOV dword ptr [ESP + 0xc], EDX
+    00446b9f: MOV dword ptr [ESP + 0xc], EDX
+
+FUN_004c28c0 @ 004c28c0 - 3 hit(s):
+    004c3493: MOV dword ptr [EBX + 0xc0], ESI
+    004c3666: MOV dword ptr [EDX + 0xc0], ESI
+    004c465b: MOV dword ptr [EBP + ECX*0x4 + 0xc], EAX
+
+__chsize_nolock @ 0050b010 - 3 hit(s):
+    0050b027: MOV dword ptr [EBP + -0xc], EBX
+    0050b128: MOV dword ptr [EBP + -0xc], ESI
+    0050b171: MOV dword ptr [EBP + -0xc], EDX
+
+FUN_004a62e0 @ 004a62e0 - 3 hit(s):
+    004a6341: MOV dword ptr [ESP + 0xc], EBX
+    004a6497: MOV dword ptr [EAX + 0xc], EDX
+    004a65b1: MOV dword ptr [ESP + 0xc], EAX
+
+__setmbcp_nolock @ 004ff30c - 3 hit(s):
+    004ff3b8: MOV dword ptr [EBX + 0xc], ESI
+    004ff461: MOV dword ptr [EBX + 0xc], EAX
+    004ff4b4: MOV dword ptr [EBX + 0xc], EAX
+
+_store_winword @ 004f62f5 - 3 hit(s):
+    004f6397: MOV dword ptr [EBP + -0xc], ECX
+    004f645b: MOV dword ptr [EBP + -0xc], ECX
+    004f6547: MOV dword ptr [EBP + -0xc], EDI
+
+__control87 @ 0050c273 - 3 hit(s):
+    0050c329: MOV dword ptr [EBP + 0xc], EAX
+    0050c3dd: MOV dword ptr [EBP + 0xc], EDX
+    0050c4be: MOV dword ptr [EBP + -0xc], EAX
+
+FUN_00401940 @ 00401940 - 2 hit(s):
+    0040197f: MOV dword ptr [ESI + -0xc], EDI
+    00401994: MOV byte ptr [ESI + 0xc], BL
+
+FUN_0045f770 @ 0045f770 - 2 hit(s):
+    0045f8b4: MOV dword ptr [ESI + 0xc], EDI
+    0045f9a4: MOV dword ptr [ESI + 0xc], EDI
+
+FUN_0048db40 @ 0048db40 - 2 hit(s):
+    0048db80: MOV dword ptr [ESP + 0xc], EDX
+    0048db86: MOV dword ptr [ESP + 0xc], EBP
+
+FUN_00407a60 @ 00407a60 - 2 hit(s):
+    00407a72: MOV dword ptr [EAX + -0xc], EDX
+    00407a8a: MOV byte ptr [EAX + 0xc], CL
+
+FUN_00407bc0 @ 00407bc0 - 2 hit(s):
+    00407cb1: MOV byte ptr [EDX + 0xc], CL
+    00407cc9: MOV byte ptr [EDX + 0xc], CL
+
+__get_sse2_info @ 0050820e - 2 hit(s):
+    0050821c: MOV dword ptr [EBP + -0xc], EAX
+    0050823a: MOV dword ptr [EBP + -0xc], EAX
+
+FUN_0040db60 @ 0040db60 - 2 hit(s):
+    0040e184: MOV dword ptr [EAX + 0xc], EDI
+    0040e1d0: MOV dword ptr [ECX + 0xc], EDI
+
+FUN_0046a640 @ 0046a640 - 2 hit(s):
+    0046b2e0: MOV dword ptr [EAX + 0xc], EDX
+    0046b372: MOV dword ptr [EBP + 0xc], ECX
+
+FUN_004ec710 @ 004ec710 - 2 hit(s):
+    004ecd80: MOV dword ptr [EAX + 0xc], ECX
+    004ece46: MOV dword ptr [EDI + 0xc], EDX
+
+FUN_004eade0 @ 004eade0 - 2 hit(s):
+    004eae1a: MOV dword ptr [EDX + 0xc], EAX
+    004eae5f: MOV dword ptr [ESI + -0xc], EBX
+
+FUN_0040c290 @ 0040c290 - 2 hit(s):
+    0040ca1c: MOV dword ptr [EAX + 0xc], EDI
+    0040ca68: MOV dword ptr [ECX + 0xc], EDI
+
+__read_nolock @ 00509037 - 2 hit(s):
+    0050911f: MOV dword ptr [EBP + -0xc], EAX
+    00509167: MOV dword ptr [EBP + -0xc], EAX
+
+FUN_0047da20 @ 0047da20 - 2 hit(s):
+    0047db8d: MOV dword ptr [ESP + 0xc4], EAX
+    0047db9b: MOV dword ptr [ESP + 0xc8], ECX
+
+FUN_004d1cf0 @ 004d1cf0 - 2 hit(s):
+    004d2345: MOV byte ptr [EDI + ESI*0x1 + 0xc], AL
+    004d29e7: MOV byte ptr [EDI + ESI*0x1 + 0xc], CL
+
+FUN_004ed620 @ 004ed620 - 2 hit(s):
+    004ed649: MOV dword ptr [ESP + 0xc], EAX
+    004ed651: MOV dword ptr [ESP + 0xc], EBX
+
+FUN_0048c440 @ 0048c440 - 2 hit(s):
+    0048c45a: MOV dword ptr [ESP + 0xc], ESI
+    0048c480: MOV dword ptr [ESP + 0xc], ESI
+
+__local_unwind2 @ 00506169 - 2 hit(s):
+    005061b4: MOV dword ptr [ESP + 0xc], ECX
+    005061b8: MOV dword ptr [EAX + 0xc], ECX
+
+FUN_004649e0 @ 004649e0 - 2 hit(s):
+    00464a2c: MOV byte ptr [ESI + 0xc4], BL
+    00464a32: MOV byte ptr [ESI + 0xc5], BL
+
+__filbuf @ 0050226b - 2 hit(s):
+    005022b2: MOV dword ptr [ESI + 0xc], EAX
+    005022bd: MOV dword ptr [ESI + 0xc], EAX
+
+___sbh_resize_block @ 004fc79f - 2 hit(s):
+    004fc7d0: MOV dword ptr [EBP + -0xc], ECX
+    004fc960: MOV dword ptr [EBP + 0xc], EBX
+
+__gmtime64_s @ 004f57df - 2 hit(s):
+    004f5835: MOV dword ptr [EBP + -0xc], EAX
+    004f59bd: MOV dword ptr [ESI + 0xc], EAX
+
+FUN_004e0060 @ 004e0060 - 2 hit(s):
+    004e007f: MOV dword ptr [ESP + 0xc], ESI
+    004e033b: MOV dword ptr [ESP + 0xc], ESI
+
+FUN_004ba180 @ 004ba180 - 2 hit(s):
+    004ba31b: MOV dword ptr [EDI + 0xc], ECX
+    004ba6b4: MOV dword ptr [EDI + 0xc], EBX
+
+__localtime64_s @ 004f4d76 - 2 hit(s):
+    004f4d88: MOV dword ptr [EBP + -0xc], EBX
+    004f5022: MOV dword ptr [ESI + 0xc], EAX
+
+FUN_004b3ad0 @ 004b3ad0 - 2 hit(s):
+    004b48c4: MOV dword ptr [ESI + 0xc0], EDI
+    004b48d2: MOV dword ptr [ESI + 0xc4], EDI
+
+FUN_004d34d0 @ 004d34d0 - 2 hit(s):
+    004d3983: MOV byte ptr [ESP + 0xc], BL
+    004d3d75: MOV byte ptr [ESI + EBP*0x1 + 0xc], AL
+
+FUN_004c48b0 @ 004c48b0 - 2 hit(s):
+    004c49e7: MOV dword ptr [EAX + 0xc], EDX
+    004c4c9c: MOV dword ptr [EAX + 0xc], EDX
+
+_cvtdate @ 004fd2c2 - 2 hit(s):
+    004fd2ee: MOV dword ptr [EBP + -0xc], EAX
+    004fd329: MOV dword ptr [EBP + 0xc], EAX
+
+FUN_004626f0 @ 004626f0 - 2 hit(s):
+    00462929: MOV dword ptr [ESI + 0xc], EBX
+    00462a15: MOV dword ptr [ESI + 0xc], EBX
+
+FUN_0045b410 @ 0045b410 - 2 hit(s):
+    0045b468: MOV dword ptr [ESP + 0xc], EAX
+    0045b52c: MOV dword ptr [ESP + 0xc], EAX
+
+FUN_004d3ee0 @ 004d3ee0 - 2 hit(s):
+    004d458e: MOV byte ptr [EDI + ESI*0x1 + 0xc], AL
+    004d4ab0: MOV byte ptr [EDI + ESI*0x1 + 0xc], DL
+
+FUN_004b8720 @ 004b8720 - 2 hit(s):
+    004b8744: MOV dword ptr [ESP + 0xc], EBP
+    004b89a6: MOV dword ptr [ESP + 0xc], EBP
+
+_memcpy @ 004f8d00 - 2 hit(s):
+    004f8e4c: MOV dword ptr [EDI + ECX*0x4 + -0xc], EAX
+    004f8fe8: MOV dword ptr [EDI + ECX*0x4 + 0xc], EAX
+
+_memmove @ 004fe8c0 - 2 hit(s):
+    004fea0c: MOV dword ptr [EDI + ECX*0x4 + -0xc], EAX
+    004feba8: MOV dword ptr [EDI + ECX*0x4 + 0xc], EAX
+
+__filwbuf @ 00502592 - 2 hit(s):
+    005025d9: MOV dword ptr [ESI + 0xc], EAX
+    005025e4: MOV dword ptr [ESI + 0xc], EAX
+
+__wopenfile @ 004fe602 - 2 hit(s):
+    004fe61a: MOV dword ptr [EBP + -0xc], EDI
+    004fe89d: MOV dword ptr [EAX + 0xc], ECX
+
+FUN_004f2560 @ 004f2560 - 1 hit(s):
+    004f263a: MOV dword ptr [ESP + 0xc], EDX
+
+__NLG_Notify @ 00506219 - 1 hit(s):
+    0050622a: MOV dword ptr [EBX + 0xc], EBP
+
+FUN_0049fe10 @ 0049fe10 - 1 hit(s):
+    004a0467: MOV dword ptr [EDX + 0xc], ESI
+
+FUN_004eec40 @ 004eec40 - 1 hit(s):
+    004eecf7: MOV dword ptr [ESP + 0xc], ESI
+
+FUN_004d0c80 @ 004d0c80 - 1 hit(s):
+    004d12c2: MOV byte ptr [ESI + EDI*0x1 + 0xc], AL
+
+FUN_004a7a40 @ 004a7a40 - 1 hit(s):
+    004a7aed: MOV word ptr [ESP + 0xc0], CX
+
+FUN_004f5a50 @ 004f5a50 - 1 hit(s):
+    004f5af1: MOV dword ptr [ESP + 0xc], EDX
+
+FUN_0045bb20 @ 0045bb20 - 1 hit(s):
+    0045bb51: MOV dword ptr [ESP + 0xc], ECX
+
+___crtGetEnvironmentStringsA @ 00502c53 - 1 hit(s):
+    00502ce3: MOV dword ptr [EBP + -0xc], EAX
+
+FUN_004a9fd0 @ 004a9fd0 - 1 hit(s):
+    004aa176: MOV dword ptr [EAX + 0xc], ECX
+
+FUN_004ce580 @ 004ce580 - 1 hit(s):
+    004d01a4: MOV byte ptr [EDI + ESI*0x1 + 0xc], AL
+
+setSBCS @ 004feff5 - 1 hit(s):
+    004ff019: MOV dword ptr [ESI + 0xc], EDI
+
+FUN_00409ec0 @ 00409ec0 - 1 hit(s):
+    00409ef6: MOV dword ptr [EAX + 0xc], ECX
+
+FUN_004707a0 @ 004707a0 - 1 hit(s):
+    004707d8: MOV dword ptr [ESI + 0xc], EAX
+
+FUN_0045a740 @ 0045a740 - 1 hit(s):
+    0045a756: MOV dword ptr [EAX + 0xc], ECX
+
+FUN_004ea620 @ 004ea620 - 1 hit(s):
+    004ea815: MOV dword ptr [EAX + 0xc], EDX
+
+FUN_00470540 @ 00470540 - 1 hit(s):
+    00470581: MOV dword ptr [EDI + 0xc], EAX
+
+___sbh_alloc_new_region @ 004fc5e7 - 1 hit(s):
+    004fc664: MOV dword ptr [ESI + 0xc], EAX
+
+FUN_004706b0 @ 004706b0 - 1 hit(s):
+    004706ea: MOV dword ptr [ESI + 0xc], EAX
+
+_CallSETranslator @ 004f795d - 1 hit(s):
+    004f79bd: MOV dword ptr [EBP + -0xc], ESP
+
+__getstream @ 004facc3 - 1 hit(s):
+    004fadbe: MOV dword ptr [EDI + 0xc], EBX
+
+__except_handler4 @ 004f9680 - 1 hit(s):
+    004f97b8: MOV dword ptr [EAX + 0xc], ECX
+
+__write_nolock @ 0050197b - 1 hit(s):
+    00501b1c: MOV byte ptr [EBP + -0xc], DL
+
+FindHandler @ 0050368f - 1 hit(s):
+    0050386f: MOV dword ptr [EBP + -0xc], EAX
+
+__local_unwind4 @ 004fadfc - 1 hit(s):
+    004fae59: MOV dword ptr [EAX + 0xc], ECX
+
+__umatherr @ 005087bf - 1 hit(s):
+    005087fd: MOV dword ptr [EBP + -0xc], EAX
+
+FUN_004dffb0 @ 004dffb0 - 1 hit(s):
+    004dffec: MOV dword ptr [ESP + 0xc], EDI
+
+FUN_004c9d10 @ 004c9d10 - 1 hit(s):
+    004cb74c: MOV dword ptr [EBP + EAX*0x4 + 0xc], EDX
+
+FUN_004eb750 @ 004eb750 - 1 hit(s):
+    004eb82e: MOV dword ptr [ECX + 0xc], EDX
+
+FUN_0048ccf0 @ 0048ccf0 - 1 hit(s):
+    0048cd13: MOV dword ptr [ESI + 0xc], EDI
+
+FUN_00435470 @ 00435470 - 1 hit(s):
+    004354e3: MOV dword ptr [EAX + 0xc], ECX
+
+FUN_004bbe10 @ 004bbe10 - 1 hit(s):
+    004bbee2: MOV byte ptr [ESI + 0xc], DL
+
+FUN_004bdc00 @ 004bdc00 - 1 hit(s):
+    004bdd1e: MOV dword ptr [ECX + EAX*0x1 + 0xc], EBX
+
+FUN_004bbbb0 @ 004bbbb0 - 1 hit(s):
+    004bbc7d: MOV word ptr [ESP + 0xc], AX
+
+FUN_00444dc0 @ 00444dc0 - 1 hit(s):
+    004452d6: MOV dword ptr [ESP + 0xc], EDX
+
+FUN_004d0420 @ 004d0420 - 1 hit(s):
+    004d0b02: MOV byte ptr [ESI + EDI*0x1 + 0xc], AL
+
+___dtold @ 00509bcc - 1 hit(s):
+    00509bed: MOV dword ptr [EBP + 0xc], EAX
+
+FUN_0048cc70 @ 0048cc70 - 1 hit(s):
+    0048cc93: MOV dword ptr [ESI + 0xc], EDI
+
+__VEC_memcpy @ 005053a5 - 1 hit(s):
+    005053ab: MOV dword ptr [EBP + -0xc], EDI
+
+FUN_0050d4e0 @ 0050d4e0 - 1 hit(s):
+    0050d581: MOV dword ptr [ESP + 0xc], EDX
+
+___sbh_alloc_block @ 004fca80 - 1 hit(s):
+    004fcbca: MOV dword ptr [EBP + -0xc], ECX
+
+__flush @ 004f725d - 1 hit(s):
+    004f72a9: MOV dword ptr [ESI + 0xc], EAX
+
+__allrem @ 004fd920 - 1 hit(s):
+    004fd93c: MOV dword ptr [ESP + 0xc], EDX
+
+FUN_0042e080 @ 0042e080 - 1 hit(s):
+    0042e7ca: MOV dword ptr [ESP + 0xc], ECX
+
+FUN_004ea2e0 @ 004ea2e0 - 1 hit(s):
+    004ea4e3: MOV dword ptr [EAX + 0xc], EDX
+
+FUN_004d4c10 @ 004d4c10 - 1 hit(s):
+    004d58c9: MOV byte ptr [EDI + ESI*0x1 + 0xc], DL
+
+FUN_00408ba0 @ 00408ba0 - 1 hit(s):
+    00408d1c: MOV dword ptr [ESI + -0xc], EBX
+
+FUN_0050e90e @ 0050e90e - 1 hit(s):
+    0050edac: MOV dword ptr [ESP + 0xc], EDX
+
+__VEC_memzero @ 00507750 - 1 hit(s):
+    00507776: MOV dword ptr [EBP + -0xc], EDX
+
+__ungetc_nolock @ 004f7045 - 1 hit(s):
+    004f712a: MOV dword ptr [ESI + 0xc], EAX
+
+FUN_00409f80 @ 00409f80 - 1 hit(s):
+    0040a353: MOV dword ptr [ESI + 0xc], EAX
+
+FUN_004a56f0 @ 004a56f0 - 1 hit(s):
+    004a58ac: MOV dword ptr [EDI + 0xc], EAX
+
+FUN_00435af0 @ 00435af0 - 1 hit(s):
+    00435b9e: MOV dword ptr [ESP + 0xc], EAX
+
+__fclose_nolock @ 004f48f8 - 1 hit(s):
+    004f4965: MOV dword ptr [ESI + 0xc], EDI
+
+__fltout2 @ 00509c89 - 1 hit(s):
+    00509d09: MOV dword ptr [EBX + 0xc], ESI
+
+FUN_0046f6d0 @ 0046f6d0 - 1 hit(s):
+    0046fb30: MOV dword ptr [EBP + 0xc0], ESI
+
+FUN_004165a0 @ 004165a0 - 1 hit(s):
+    004165c1: MOV dword ptr [ESP + 0xc], EAX
+
+_CallCatchBlock2 @ 004f7bed - 1 hit(s):
+    004f7c0c: MOV dword ptr [EBP + -0xc], EAX
+
+FUN_0042d780 @ 0042d780 - 1 hit(s):
+    0042d8fa: MOV byte ptr [EBP + 0xc4], BL
+
+FUN_004df2c0 @ 004df2c0 - 1 hit(s):
+    004df450: MOV dword ptr [EDI + 0xc], ESI
+
+FUN_00470830 @ 00470830 - 1 hit(s):
+    0047089f: MOV dword ptr [ESI + 0xc], EAX
+
+FUN_0047d600 @ 0047d600 - 1 hit(s):
+    0047d77b: MOV dword ptr [ESP + 0xc0], EAX
+
+FUN_004b4be0 @ 004b4be0 - 1 hit(s):
+    004b4c08: MOV dword ptr [ESP + 0xc], EBX
+
+FUN_00465330 @ 00465330 - 1 hit(s):
+    00465828: MOV dword ptr [EDX + 0xc], EBX
+
+_vfprintf_helper @ 004fbbb7 - 1 hit(s):
+    004fbc02: MOV dword ptr [EBP + 0xc], EDI
+
+FUN_0050d629 @ 0050d629 - 1 hit(s):
+    0050de39: MOV dword ptr [ESP + 0xc], EDX
+
+FUN_004eaac0 @ 004eaac0 - 1 hit(s):
+    004eab3d: MOV dword ptr [ESP + 0xc], EAX
+
+FUN_004e2cd0 @ 004e2cd0 - 1 hit(s):
+    004e3d16: MOV dword ptr [EAX + 0xc], EDX
+
+FUN_0050e550 @ 0050e550 - 1 hit(s):
+    0050e562: MOV dword ptr [EBP + -0xc], EAX
+
+FUN_004a5af0 @ 004a5af0 - 1 hit(s):
+    004a5c8e: MOV dword ptr [ESP + 0xc4], ECX
+
+FUN_004bed80 @ 004bed80 - 1 hit(s):
+    004bf1ba: MOV dword ptr [EAX + 0xc], EDX
+
+Catch@0048da43 @ 0048da43 - 1 hit(s):
+    0048da49: MOV dword ptr [EBP + 0xc], EAX
+
+FUN_0045a790 @ 0045a790 - 1 hit(s):
+    0045a7af: MOV dword ptr [ESP + 0xc], EAX
+
+FUN_0041d7e0 @ 0041d7e0 - 1 hit(s):
+    0041d847: MOV dword ptr [EBP + EDI*0x4 + 0xc0], ESI
+
+FUN_0049f6a0 @ 0049f6a0 - 1 hit(s):
+    0049f773: MOV dword ptr [EAX + 0xc], EDX
+
+FUN_00417180 @ 00417180 - 1 hit(s):
+    0041a1dc: MOV dword ptr [EAX + 0xc], ECX
+
+FUN_004bbd80 @ 004bbd80 - 1 hit(s):
+    004bbdb9: MOV dword ptr [ECX + 0xc], EBX
+
+FUN_00403360 @ 00403360 - 1 hit(s):
+    004034da: MOV dword ptr [ESP + 0xc], EAX
+
+FUN_004c1430 @ 004c1430 - 1 hit(s):
+    004c16ed: MOV byte ptr [ESI + 0xc870], DL
+
+__crtGetStringTypeA_stat @ 00502396 - 1 hit(s):
+    00502517: MOV dword ptr [EBP + 0xc], ESI
+
+__ctrlfp @ 00508af7 - 1 hit(s):
+    00508b14: MOV dword ptr [EBP + 0xc], EAX
+
+FUN_004d1450 @ 004d1450 - 1 hit(s):
+    004d1b62: MOV byte ptr [ESI + EDI*0x1 + 0xc], AL
+
+FUN_0040cd70 @ 0040cd70 - 1 hit(s):
+    0040ce3f: MOV dword ptr [ESP + 0xc], EAX
+
+FUN_0043f760 @ 0043f760 - 1 hit(s):
+    0043f863: MOV dword ptr [ESP + 0xc], EAX
+
+FUN_00407fe0 @ 00407fe0 - 1 hit(s):
+    004080d1: MOV dword ptr [EDI + EDX*0x8 + 0xc], EAX
+
+FUN_004cd470 @ 004cd470 - 1 hit(s):
+    004ce331: MOV byte ptr [ESI + EDI*0x1 + 0xc], AL
+
+__raise_exc_ex @ 0050827d - 1 hit(s):
+    0050829c: MOV dword ptr [EAX + 0xc], EDI
+
+_fclose @ 004f496f - 1 hit(s):
+    004f49b2: MOV dword ptr [ESI + 0xc], EDI
+
+___sbh_alloc_new_group @ 004fc697 - 1 hit(s):
+    004fc76f: MOV dword ptr [ESI + EBX*0x4 + 0xc4], EDI
+
+FUN_00427070 @ 00427070 - 1 hit(s):
+    00427115: MOV dword ptr [ESP + 0xc], EAX
+
+FUN_004eaa30 @ 004eaa30 - 1 hit(s):
+    004eaaab: MOV dword ptr [ESP + 0xc], EAX
+
+FUN_004ba8d0 @ 004ba8d0 - 1 hit(s):
+    004bab39: MOV dword ptr [EBX + 0xc], ECX
+
+FUN_00408130 @ 00408130 - 1 hit(s):
+    00408181: MOV dword ptr [ESI + 0xc], EBX
+
+FUN_0048cd30 @ 0048cd30 - 1 hit(s):
+    0048cd53: MOV dword ptr [ESI + 0xc], EDI
+
+FUN_004d5ae0 @ 004d5ae0 - 1 hit(s):
+    004d5da5: MOV byte ptr [ESI + EDI*0x1 + 0xc], CL
+
+FUN_004f1f30 @ 004f1f30 - 1 hit(s):
+    004f1f57: MOV dword ptr [ESI + 0xc], EAX
+
+FUN_004938a0 @ 004938a0 - 1 hit(s):
+    004939a9: MOV dword ptr [ESP + 0xc], EAX
+
+IsInExceptionSpec @ 005030bc - 1 hit(s):
+    005030f9: MOV dword ptr [EBP + -0xc], EAX
+
+FUN_00421250 @ 00421250 - 1 hit(s):
+    00421285: MOV dword ptr [EAX + 0xc], ECX
+
+__wctomb_s_l @ 005017a9 - 1 hit(s):
+    005018c2: MOV dword ptr [EBP + 0xc], EBX
+
+FUN_004cc8d0 @ 004cc8d0 - 1 hit(s):
+    004cd397: MOV byte ptr [ESI + EDI*0x1 + 0xc], AL
+
+FUN_00427ab0 @ 00427ab0 - 1 hit(s):
+    00427b32: MOV dword ptr [ESP + 0xc], EAX
+
+__calloc_impl @ 00504d6d - 1 hit(s):
+    00504dd9: MOV dword ptr [EBP + 0xc], ESI
+
+FUN_00493b30 @ 00493b30 - 1 hit(s):
+    00493cb0: MOV word ptr [ESP + 0xc], AX
+
+FUN_00407fa0 @ 00407fa0 - 1 hit(s):
+    00407fc3: MOV byte ptr [ECX + 0xc], DL
+
+FUN_0045b8d0 @ 0045b8d0 - 1 hit(s):
+    0045b9ee: MOV dword ptr [ESP + 0xc], ECX
+
+FUN_00449190 @ 00449190 - 1 hit(s):
+    0044939b: MOV byte ptr [ESP + 0xc], AL
+
+FUN_00453440 @ 00453440 - 1 hit(s):
+    00454b7f: MOV byte ptr [ESP + 0xc], AL
+
+__Strftime_l @ 004f6756 - 1 hit(s):
+    004f67f8: MOV dword ptr [EBP + -0xc], EAX
+
+FUN_004061d0 @ 004061d0 - 1 hit(s):
+    004062e1: MOV dword ptr [ESP + 0xc], ESI
+
+FUN_0048cd70 @ 0048cd70 - 1 hit(s):
+    0048ceea: MOV dword ptr [ESP + 0xc], ECX
+
+___crtsetenv @ 0050ccc6 - 1 hit(s):
+    0050ccd4: MOV dword ptr [EBP + -0xc], EBX
+
+__cftof2_l @ 00504984 - 1 hit(s):
+    00504a4e: MOV dword ptr [EBP + 0xc], EBX
+
+FUN_0048ccb0 @ 0048ccb0 - 1 hit(s):
+    0048ccd3: MOV dword ptr [ESI + 0xc], EDI
+INFO  REPORT: Save succeeded for processed file: /Spelunky.exe (HeadlessAnalyzer)  

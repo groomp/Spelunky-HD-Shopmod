@@ -1,0 +1,17 @@
+# Build output
+build/
+dist/
+
+# Compiled C++ intermediates (overlay.cpp is the source of truth)
+overlay/*.obj
+overlay/*.exp
+overlay/*.lib
+
+# Ghidra install/project (third-party tool, too large for GitHub anyway)
+tools/ghidra_11.2.1_PUBLIC/
+tools/ghidra.zip
+ghidra_proj/
+
+# Python
+__pycache__/
+*.pyc
